@@ -28,6 +28,7 @@ namespace Machine_Atm_Aimun_Nathan
         private void button1_Click(object sender, EventArgs e)
         {
             frmRetirer frm = new frmRetirer();
+            frm.Show();
             SystemSounds.Asterisk.Play();
 
         }

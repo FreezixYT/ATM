@@ -20,7 +20,7 @@ namespace Machine_Atm_Aimun_Nathan
     
     public partial class frmAjouter : Form
     {
-        static public List<double> listBalance = new List<double>();
+        static public double montant;
         public frmAjouter()
         {
             InitializeComponent();
@@ -29,8 +29,7 @@ namespace Machine_Atm_Aimun_Nathan
         private void tbxMontant_TextChanged(object sender, EventArgs e)
         {
             //ajouter le montant dans une liste pour pouvoir l'utiliser apres
-           double montant=Convert.ToDouble(tbxMontant.Text);
-           listBalance.Add(montant);
+            montant=Convert.ToDouble(tbxMontant.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,6 +40,11 @@ namespace Machine_Atm_Aimun_Nathan
             string message = "le montant total: " + total;
             MessageBoxButtons button=MessageBoxButtons.OK;
             MessageBox.Show(message, title, button);
+        }
+
+        private void frmAjouter_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
