@@ -59,8 +59,13 @@ namespace Machine_Atm_Aimun_Nathan
                     Console.Beep(1000, 500); 
                 });
 
+<<<<<<< HEAD
+                Thread.Sleep(200); 
+            }   
+=======
                 Thread.Sleep(20); 
             }
+>>>>>>> 695d1fc91b47ab9674cf807f98d641f7c66846ff
         }
     }
 }

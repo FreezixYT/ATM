@@ -72,7 +72,6 @@
             this.tbxRetirer.Name = "tbxRetirer";
             this.tbxRetirer.Size = new System.Drawing.Size(189, 20);
             this.tbxRetirer.TabIndex = 1;
-            this.tbxRetirer.TextChanged += new System.EventHandler(this.tbxRetirer_TextChanged);
             // 
             // tbxMontantReste
             // 
