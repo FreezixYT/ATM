@@ -1,6 +1,6 @@
 ﻿namespace Machine_Atm_Aimun_Nathan
 {
-    partial class Form1
+    partial class frmTwint
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Label lblTwint;
+            lblTwint = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Form1
+            // lblTwint
+            // 
+            lblTwint.AutoSize = true;
+            lblTwint.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblTwint.Location = new System.Drawing.Point(372, 117);
+            lblTwint.Name = "lblTwint";
+            lblTwint.Size = new System.Drawing.Size(125, 50);
+            lblTwint.TabIndex = 0;
+            lblTwint.Text = "label1";
+            lblTwint.UseCompatibleTextRendering = true;
+            // 
+            // frmTwint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Controls.Add(lblTwint);
+            this.Name = "frmTwint";
             this.Text = "Twint";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
