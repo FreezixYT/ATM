@@ -28,10 +28,7 @@ namespace Machine_Atm_Aimun_Nathan
         {
             //afficher un message box qui dis de recommencer si l'argent retirer est plus grnd que le montant
             double demandeRetire=Convert.ToDouble(tbxRetirer.Text);
-            if (demandeRetire < listBalance(montant))
-            {
-
-            }
+          
             //faire un meesage box avec 2 bouttons.
             //un qui dit recommencer pour recommencer et l'aure pour quitter
         }
