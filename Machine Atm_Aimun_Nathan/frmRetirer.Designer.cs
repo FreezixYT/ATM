@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tbxRetirer = new System.Windows.Forms.TextBox();
             this.tbxMontantReste = new System.Windows.Forms.TextBox();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRetirer
@@ -81,11 +82,22 @@
             this.tbxMontantReste.TabIndex = 4;
             this.tbxMontantReste.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
+            // btnReturn
+            // 
+            this.btnReturn.Location = new System.Drawing.Point(673, 401);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(100, 37);
+            this.btnReturn.TabIndex = 5;
+            this.btnReturn.Text = "Retourner";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // frmRetirer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.tbxMontantReste);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblDemandeRetirer);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbxRetirer;
         private System.Windows.Forms.TextBox tbxMontantReste;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

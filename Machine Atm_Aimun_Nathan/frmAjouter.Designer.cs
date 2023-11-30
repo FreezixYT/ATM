@@ -49,7 +49,7 @@
             // tbxMontant
             // 
             this.tbxMontant.Location = new System.Drawing.Point(197, 33);
-            this.tbxMontant.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbxMontant.Margin = new System.Windows.Forms.Padding(2);
             this.tbxMontant.Name = "tbxMontant";
             this.tbxMontant.Size = new System.Drawing.Size(68, 20);
             this.tbxMontant.TabIndex = 1;
@@ -68,7 +68,7 @@
             // tbxAjouter
             // 
             this.tbxAjouter.Location = new System.Drawing.Point(231, 100);
-            this.tbxAjouter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbxAjouter.Margin = new System.Windows.Forms.Padding(2);
             this.tbxAjouter.Name = "tbxAjouter";
             this.tbxAjouter.Size = new System.Drawing.Size(68, 20);
             this.tbxAjouter.TabIndex = 3;
@@ -76,7 +76,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(185, 164);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 22);
             this.button1.TabIndex = 4;
@@ -87,12 +87,13 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(427, 263);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 22);
             this.button2.TabIndex = 5;
             this.button2.Text = "retourner";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmAjouter
             // 
@@ -105,10 +106,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbxMontant);
             this.Controls.Add(this.lblMontant);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmAjouter";
             this.Text = "frmAjouter";
-            this.Load += new System.EventHandler(this.frmAjouter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

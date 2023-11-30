@@ -42,9 +42,10 @@ namespace Machine_Atm_Aimun_Nathan
             MessageBox.Show(message, title, button);
         }
 
-        private void frmAjouter_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            frmMain frm = new frmMain();
+            frm.ShowDialog();
         }
     }
 }

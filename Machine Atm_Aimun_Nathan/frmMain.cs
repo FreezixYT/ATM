@@ -32,5 +32,10 @@ namespace Machine_Atm_Aimun_Nathan
             SystemSounds.Asterisk.Play();
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
