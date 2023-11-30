@@ -1,0 +1,25 @@
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe.config
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.AssemblyReference.cache
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmAjouter.resources
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmMain.resources
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.Properties.Resources.resources
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.GenerateResource.cache
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\aimun\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe.config
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.AssemblyReference.cache
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmAjouter.resources
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmMain.resources
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.Properties.Resources.resources
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.GenerateResource.cache
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\nathan\source\repos\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\Desktop\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.AssemblyReference.cache
+C:\Users\nathan\Desktop\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\nathan\Desktop\Machine Atm_Aimun_Nathan\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
