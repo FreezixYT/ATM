@@ -103,7 +103,7 @@
             this.Controls.Add(this.tbxRetirer);
             this.Controls.Add(this.btnRetirer);
             this.Name = "frmRetirer";
-            this.Text = "Form1";
+            this.Text = "frmRetier";
             this.ResumeLayout(false);
             this.PerformLayout();
 
