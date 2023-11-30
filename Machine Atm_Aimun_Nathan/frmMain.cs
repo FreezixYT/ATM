@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Machine_Atm_Aimun_Nathan
 {
     public partial class frmMain : Form
     {
+        private bool isAlarmOn = false;
+        private Thread alarmThread;
+
         public frmMain()
         {
             InitializeComponent();
@@ -30,12 +27,40 @@ namespace Machine_Atm_Aimun_Nathan
             frmRetirer frm = new frmRetirer();
             frm.Show();
             SystemSounds.Asterisk.Play();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (!isAlarmOn)
+            {
+                isAlarmOn = true;
+                alarmThread = new Thread(PlayAlarm);
+                alarmThread.Start();
+            }
+            else
+            {
+                isAlarmOn = false;
+                
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void PlayAlarm()
+        {
+            while (isAlarmOn)
+            {
+                
+                this.Invoke((MethodInvoker)delegate
+                {
+                    Console.Beep(1000, 500); 
+                });
+
+                Thread.Sleep(200); 
+            }   
         }
     }
 }
