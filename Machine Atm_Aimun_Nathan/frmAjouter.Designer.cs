@@ -53,7 +53,6 @@
             this.tbxMontant.Name = "tbxMontant";
             this.tbxMontant.Size = new System.Drawing.Size(68, 20);
             this.tbxMontant.TabIndex = 1;
-            this.tbxMontant.TextChanged += new System.EventHandler(this.tbxMontant_TextChanged);
             // 
             // label1
             // 

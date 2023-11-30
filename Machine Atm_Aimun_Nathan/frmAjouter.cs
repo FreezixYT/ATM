@@ -24,12 +24,17 @@ namespace Machine_Atm_Aimun_Nathan
         public frmAjouter()
         {
             InitializeComponent();
+            this.tbxMontant.KeyPress += new KeyPressEventHandler(tbxMontant_KeyPress);
+            this.tbxAjouter.KeyPress += new KeyPressEventHandler(tbxAjouter_KeyPress);
         }
 
-        private void tbxMontant_TextChanged(object sender, EventArgs e)
+        private void tbxMontant_KeyPress(object sender, KeyPressEventArgs e)
         {
             //ajouter le montant dans une liste pour pouvoir l'utiliser apres
             montant=Convert.ToDouble(tbxMontant.Text);
+            //faire en sorte qu'omn peut mettre que des chiffres
+            if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
+                e.Handled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,6 +51,13 @@ namespace Machine_Atm_Aimun_Nathan
         {
             frmMain frm = new frmMain();
             frm.ShowDialog();
+        }
+
+        private void tbxAjouter_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //faire en sorte qu'omn peut mettre que des chiffres
+            if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
+                e.Handled = true;
         }
     }
 }

@@ -16,16 +16,21 @@ namespace Machine_Atm_Aimun_Nathan
         public frmRetirer()
         {
             InitializeComponent();
+            this.tbxRetirer.KeyPress += new KeyPressEventHandler(tbxRetirer_KeyPress);
         }
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             //afficher le montantqui reste (retirer-montant)
         }
 
-        private void tbxRetirer_TextChanged(object sender, EventArgs e)
+        private void tbxRetirer_KeyPress(object sender, KeyPressEventArgs e)
         {
             //afficher un message box qui dis de recommencer si l'argent retirer est plus grnd que le montant
             demandeRetire = Convert.ToDouble(tbxRetirer.Text);
+            //faire en sorte qu'omn peut mettre que des chiffres
+            if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
+                e.Handled = true;
+
         }
 
 
