@@ -33,13 +33,19 @@ namespace Machine_Atm_Aimun_Nathan
 
         }
 
+
         private void button3_Click(object sender, EventArgs e)
         {
-            Console.Beep(10000 , 400) ;
-            Console.Beep(11000, 400);
             Console.Beep(10000, 400);
             Console.Beep(11000, 400);
             Console.Beep(10000, 400);
+            Console.Beep(11000, 400);
+            Console.Beep(10000, 400); 
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
         }
     }
 }
