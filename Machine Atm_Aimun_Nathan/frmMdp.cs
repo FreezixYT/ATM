@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Machine_Atm_Aimun_Nathan
 {
-    public partial class Form2 : Form
+    public partial class frmMdp : Form
     {
-        public Form2()
+        public frmMdp()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
