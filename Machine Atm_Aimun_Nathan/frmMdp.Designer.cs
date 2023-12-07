@@ -49,7 +49,6 @@
             this.lblUtilisateur.Size = new System.Drawing.Size(56, 13);
             this.lblUtilisateur.TabIndex = 0;
             this.lblUtilisateur.Text = "Utilisateur:";
-            this.lblUtilisateur.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnEnvoyer
             // 
@@ -114,6 +113,7 @@
             this.tbxMdp.Name = "tbxMdp";
             this.tbxMdp.Size = new System.Drawing.Size(254, 20);
             this.tbxMdp.TabIndex = 8;
+            this.tbxMdp.TextChanged += new System.EventHandler(this.tbxMdp_TextChanged);
             // 
             // tbxPrenom
             // 
@@ -148,7 +148,7 @@
             this.Controls.Add(this.btnEnvoyer);
             this.Controls.Add(this.lblUtilisateur);
             this.Name = "frmMdp";
-            this.Text = "Form2";
+            this.Text = "Compte";
             this.ResumeLayout(false);
             this.PerformLayout();
 
