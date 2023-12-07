@@ -17,7 +17,7 @@ using System.Windows.Forms;
 
 namespace Machine_Atm_Aimun_Nathan
 {
-    
+
     public partial class frmAjouter : Form
     {
         public frmAjouter()
@@ -38,11 +38,11 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnEntrer_Click(object sender, EventArgs e)
         {
             //additionner les deux
-             SignIn.montant =Convert.ToDouble(tbxAjouter.Text)+Convert.ToDouble(tbxMontant.Text);
+            SignIn.montant = Convert.ToDouble(tbxAjouter.Text) + Convert.ToDouble(tbxMontant.Text);
             //affichage de resultat final en message box
             string title = "Felicitations";
             string message = "le montant total: " + SignIn.montant;
-            MessageBoxButtons button=MessageBoxButtons.OK;
+            MessageBoxButtons button = MessageBoxButtons.OK;
             MessageBox.Show(message, title, button);
             SignIn.listBalance.Add(SignIn.montant);
         }
@@ -55,16 +55,14 @@ namespace Machine_Atm_Aimun_Nathan
                 e.Handled = true;
         }
 
-<<<<<<< HEAD
+
         private void btnRetourner_Click(object sender, EventArgs e)
         {
             frmMain frm = new frmMain();
             frm.ShowDialog();
-=======
-        private void frmAjouter_Load(object sender, EventArgs e)
-        {
 
->>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
+
         }
     }
+
 }
