@@ -104,3 +104,4 @@ C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machin
 C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
 C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmLoterie.resources

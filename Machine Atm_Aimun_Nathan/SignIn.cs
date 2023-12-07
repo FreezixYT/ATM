@@ -70,5 +70,10 @@ namespace Machine_Atm_Aimun_Nathan
         {
             utilisateur = Convert.ToChar(tbxUtilisateur);
         }
+
+        private void SignIn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -36,6 +36,8 @@
             this.btnTwint = new System.Windows.Forms.Button();
             this.btnCompte = new System.Windows.Forms.Button();
             this.lblCompte = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -43,7 +45,7 @@
             this.button1.BackColor = System.Drawing.Color.RosyBrown;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(343, 95);
+            this.button1.Location = new System.Drawing.Point(318, 82);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 50);
@@ -57,7 +59,7 @@
             this.button2.BackColor = System.Drawing.Color.RosyBrown;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(60, 82);
+            this.button2.Location = new System.Drawing.Point(84, 82);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 50);
@@ -71,7 +73,7 @@
             this.button4.BackColor = System.Drawing.Color.RosyBrown;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(333, 250);
+            this.button4.Location = new System.Drawing.Point(389, 273);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(133, 31);
@@ -85,7 +87,7 @@
             this.button3.BackColor = System.Drawing.Color.RosyBrown;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(60, 250);
+            this.button3.Location = new System.Drawing.Point(29, 273);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 31);
@@ -109,7 +111,7 @@
             this.btnTwint.BackColor = System.Drawing.Color.RosyBrown;
             this.btnTwint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTwint.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTwint.Location = new System.Drawing.Point(191, 162);
+            this.btnTwint.Location = new System.Drawing.Point(84, 184);
             this.btnTwint.Margin = new System.Windows.Forms.Padding(2);
             this.btnTwint.Name = "btnTwint";
             this.btnTwint.Size = new System.Drawing.Size(133, 50);
@@ -138,12 +140,36 @@
             this.lblCompte.TabIndex = 9;
             this.lblCompte.Text = "Mon Compte";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.RosyBrown;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(318, 184);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(133, 50);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "LOTERIE";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(221, 282);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 13);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "©2023-MaBank.ch";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(533, 315);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.lblCompte);
             this.Controls.Add(this.btnCompte);
             this.Controls.Add(this.btnTwint);
@@ -173,8 +199,8 @@
         private System.Windows.Forms.Button btnTwint;
         private System.Windows.Forms.Button btnCompte;
         private System.Windows.Forms.Label lblCompte;
-
-     
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label1;
     }
 }
 
