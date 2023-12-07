@@ -59,5 +59,10 @@ namespace Machine_Atm_Aimun_Nathan
             if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
                 e.Handled = true;
         }
+
+        private void frmAjouter_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

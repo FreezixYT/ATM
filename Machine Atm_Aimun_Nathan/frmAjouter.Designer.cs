@@ -108,6 +108,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmAjouter";
             this.Text = "frmAjouter";
+            this.Load += new System.EventHandler(this.frmAjouter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
