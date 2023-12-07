@@ -52,12 +52,6 @@
     <Compile Include="twint.Designer.cs">
       <DependentUpon>twint.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMdp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMdp.Designer.cs">
-      <DependentUpon>frmMdp.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmRetirer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,9 +72,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMdp.resx">
-      <DependentUpon>frmMdp.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="twint.resx">
       <DependentUpon>twint.cs</DependentUpon>
     </EmbeddedResource>

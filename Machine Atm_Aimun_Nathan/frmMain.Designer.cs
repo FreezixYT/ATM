@@ -122,7 +122,7 @@
             // button5
             // 
             this.button5.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.button5.Location = new System.Drawing.Point(41, 33);
+            this.button5.Location = new System.Drawing.Point(12, 33);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(47, 27);
             this.button5.TabIndex = 7;
@@ -132,7 +132,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(216, 187);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(71, 10);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
