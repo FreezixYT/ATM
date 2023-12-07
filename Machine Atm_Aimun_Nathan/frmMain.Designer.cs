@@ -120,7 +120,6 @@
             // 
             // btnCompte
             // 
-<<<<<<< HEAD
             this.btnCompte.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.compte;
             this.btnCompte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCompte.Location = new System.Drawing.Point(12, 12);
@@ -129,34 +128,15 @@
             this.btnCompte.TabIndex = 7;
             this.btnCompte.UseVisualStyleBackColor = true;
             this.btnCompte.Click += new System.EventHandler(this.btnCompte_Click);
-=======
-            this.button5.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.button5.Location = new System.Drawing.Point(12, 33);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(47, 27);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
->>>>>>> a1f5376905787f6e207158baff302b8ff4b7d7dd
             // 
             // lblCompte
             // 
-<<<<<<< HEAD
             this.lblCompte.AutoSize = true;
             this.lblCompte.Location = new System.Drawing.Point(45, 19);
             this.lblCompte.Name = "lblCompte";
             this.lblCompte.Size = new System.Drawing.Size(67, 13);
             this.lblCompte.TabIndex = 9;
             this.lblCompte.Text = "Mon Compte";
-=======
-            this.pictureBox1.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 10);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
->>>>>>> a1f5376905787f6e207158baff302b8ff4b7d7dd
             // 
             // frmMain
             // 
@@ -192,6 +172,8 @@
         private System.Windows.Forms.Button btnTwint;
         private System.Windows.Forms.Button btnCompte;
         private System.Windows.Forms.Label lblCompte;
+
+        #region text
     }
 }
 

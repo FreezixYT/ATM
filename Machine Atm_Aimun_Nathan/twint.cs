@@ -31,5 +31,10 @@ namespace Machine_Atm_Aimun_Nathan
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

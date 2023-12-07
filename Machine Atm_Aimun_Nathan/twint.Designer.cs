@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.Label lblTwint;
+            System.Windows.Forms.Label label1;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTwint));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnEnvoyer = new System.Windows.Forms.Button();
             this.btnRecevoir = new System.Windows.Forms.Button();
             lblTwint = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +64,7 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(534, 216);
+            this.monthCalendar1.Location = new System.Drawing.Point(529, 202);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 2;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
@@ -89,17 +92,31 @@
             this.btnRecevoir.Text = "Recevoir";
             this.btnRecevoir.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            label1.Location = new System.Drawing.Point(591, 167);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(90, 40);
+            label1.TabIndex = 5;
+            label1.Text = "DATE";
+            label1.UseCompatibleTextRendering = true;
+            label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // frmTwint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(label1);
             this.Controls.Add(this.btnRecevoir);
             this.Controls.Add(this.btnEnvoyer);
-            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(lblTwint);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTwint";
             this.Text = "Twint";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
