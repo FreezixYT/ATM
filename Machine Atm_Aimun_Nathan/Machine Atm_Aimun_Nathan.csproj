@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMotDePasse.cs">
+    <Compile Include="twint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMotDePasse.Designer.cs">
-      <DependentUpon>frmMotDePasse.cs</DependentUpon>
+    <Compile Include="twint.Designer.cs">
+      <DependentUpon>twint.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMdp.cs">
       <SubType>Form</SubType>
@@ -81,8 +81,8 @@
     <EmbeddedResource Include="frmMdp.resx">
       <DependentUpon>frmMdp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMotDePasse.resx">
-      <DependentUpon>frmMotDePasse.cs</DependentUpon>
+    <EmbeddedResource Include="twint.resx">
+      <DependentUpon>twint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRetirer.resx">
       <DependentUpon>frmRetirer.cs</DependentUpon>
