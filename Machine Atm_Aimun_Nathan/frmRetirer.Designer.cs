@@ -58,7 +58,6 @@
             this.lblDemandeRetirer.Size = new System.Drawing.Size(184, 29);
             this.lblDemandeRetirer.TabIndex = 2;
             this.lblDemandeRetirer.Text = "Argent à retirer :";
-            this.lblDemandeRetirer.Click += new System.EventHandler(this.lblDemandeRetirer_Click);
             // 
             // label2
             // 
