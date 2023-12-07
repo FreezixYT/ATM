@@ -16,5 +16,20 @@ namespace Machine_Atm_Aimun_Nathan
         {
             InitializeComponent();
         }
+
+        private void lblTwint_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void btnEnvoyer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
