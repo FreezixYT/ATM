@@ -143,7 +143,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(533, 292);
+            this.ClientSize = new System.Drawing.Size(533, 315);
             this.Controls.Add(this.lblCompte);
             this.Controls.Add(this.btnCompte);
             this.Controls.Add(this.btnTwint);

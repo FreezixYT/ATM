@@ -32,8 +32,8 @@
             this.tbxMontant = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tbxAjouter = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEntrer = new System.Windows.Forms.Button();
+            this.btnRetourner = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMontant
@@ -72,35 +72,33 @@
             this.tbxAjouter.Size = new System.Drawing.Size(68, 20);
             this.tbxAjouter.TabIndex = 3;
             // 
-            // button1
+            // btnEntrer
             // 
-            this.button1.Location = new System.Drawing.Point(185, 164);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 22);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "btnEnter";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEntrer.Location = new System.Drawing.Point(185, 164);
+            this.btnEntrer.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEntrer.Name = "btnEntrer";
+            this.btnEntrer.Size = new System.Drawing.Size(79, 22);
+            this.btnEntrer.TabIndex = 4;
+            this.btnEntrer.Text = "btnEnter";
+            this.btnEntrer.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnRetourner
             // 
-            this.button2.Location = new System.Drawing.Point(427, 263);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 22);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "retourner";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnRetourner.Location = new System.Drawing.Point(427, 263);
+            this.btnRetourner.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRetourner.Name = "btnRetourner";
+            this.btnRetourner.Size = new System.Drawing.Size(79, 22);
+            this.btnRetourner.TabIndex = 5;
+            this.btnRetourner.Text = "retourner";
+            this.btnRetourner.UseVisualStyleBackColor = true;
             // 
             // frmAjouter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 292);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRetourner);
+            this.Controls.Add(this.btnEntrer);
             this.Controls.Add(this.tbxAjouter);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbxMontant);
@@ -120,7 +118,7 @@
         private System.Windows.Forms.TextBox tbxMontant;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbxAjouter;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEntrer;
+        private System.Windows.Forms.Button btnRetourner;
     }
 }

@@ -13,6 +13,7 @@ namespace Machine_Atm_Aimun_Nathan
     public partial class frmRetirer : Form
     {
         static public double demandeRetire;
+        static public double montantR;
         public frmRetirer()
         {
             InitializeComponent();
@@ -21,7 +22,6 @@ namespace Machine_Atm_Aimun_Nathan
 
         private void tbxRetirer_KeyPress(object sender, KeyPressEventArgs e)
         {
-            demandeRetire = Convert.ToDouble(tbxRetirer.Text);
             //afficher un message box qui dis de recommencer si l'argent retirer est plus grnd que le montant
 
             //faire en sorte qu'omn peut mettre que des chiffres
@@ -33,8 +33,9 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnRetirer_Click(object sender, EventArgs e)
         {
             //afficher dans le tbxMontantReste le reste montant apres avoir retirer de 'argent
+            demandeRetire = Convert.ToDouble(tbxRetirer.Text);
 
-            if (frmRetirer.demandeRetire > frmAjouter.montant)
+            if (frmRetirer.demandeRetire > SignIn.montant)
             {   //faire un meesage box avec 2 bouttons.
                 //un qui dit recommencer pour recommencer et l'aure pour quitter
                 string title = "ERROR";
@@ -53,7 +54,7 @@ namespace Machine_Atm_Aimun_Nathan
                 }
                 else
                 {
-                    double total = frmAjouter.montant + demandeRetire;
+                    double total = SignIn.montant + demandeRetire;
                     string title1 = "felicitations!vous avez reussi a retirer de l'argent.";
                     string message1 = "il vous reste: " + total;
                     MessageBoxButtons button1 = MessageBoxButtons.OK;

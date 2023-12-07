@@ -20,7 +20,6 @@ namespace Machine_Atm_Aimun_Nathan
     
     public partial class frmAjouter : Form
     {
-        static public double montant;
         public frmAjouter()
         {
             InitializeComponent();
@@ -31,23 +30,23 @@ namespace Machine_Atm_Aimun_Nathan
         private void tbxMontant_KeyPress(object sender, KeyPressEventArgs e)
         {
             //ajouter le montant dans une liste pour pouvoir l'utiliser apres
-            montant=Convert.ToDouble(tbxMontant.Text);
             //faire en sorte qu'omn peut mettre que des chiffres
             if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
                 e.Handled = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {//additionner les deux
-            double total =Convert.ToDouble(tbxAjouter.Text)+Convert.ToDouble(tbxMontant.Text);
+        private void btnEntrer_Click(object sender, EventArgs e)
+        {
+            //additionner les deux
+             SignIn.montant =Convert.ToDouble(tbxAjouter.Text)+Convert.ToDouble(tbxMontant.Text);
             //affichage de resultat final en message box
             string title = "Felicitations";
-            string message = "le montant total: " + total;
+            string message = "le montant total: " + SignIn.montant;
             MessageBoxButtons button=MessageBoxButtons.OK;
             MessageBox.Show(message, title, button);
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnRetourner_Click(object sender, EventArgs e)
         {
             frmMain frm = new frmMain();
             frm.ShowDialog();
