@@ -68,3 +68,6 @@ C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe.config
+C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
