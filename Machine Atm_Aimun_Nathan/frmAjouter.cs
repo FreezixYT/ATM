@@ -55,10 +55,16 @@ namespace Machine_Atm_Aimun_Nathan
                 e.Handled = true;
         }
 
+<<<<<<< HEAD
         private void btnRetourner_Click(object sender, EventArgs e)
         {
             frmMain frm = new frmMain();
             frm.ShowDialog();
+=======
+        private void frmAjouter_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
         }
     }
 }

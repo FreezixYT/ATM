@@ -75,5 +75,10 @@ namespace Machine_Atm_Aimun_Nathan
             listUtilisateur.Add(SignIn.utilisateur);
 
         }
+
+        private void SignIn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

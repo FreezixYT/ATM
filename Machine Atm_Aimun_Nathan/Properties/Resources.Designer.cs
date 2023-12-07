@@ -83,6 +83,16 @@ namespace Machine_Atm_Aimun_Nathan.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_921475382_170x170_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-921475382-170x170-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap twint_logo {
             get {
                 object obj = ResourceManager.GetObject("twint_logo", resourceCulture);

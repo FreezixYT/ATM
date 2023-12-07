@@ -128,6 +128,7 @@
             this.Controls.Add(this.tbxUtilisateur);
             this.Name = "SignIn";
             this.Text = "SignIn";
+            this.Load += new System.EventHandler(this.SignIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
