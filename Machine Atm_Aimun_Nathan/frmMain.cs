@@ -70,13 +70,19 @@ namespace Machine_Atm_Aimun_Nathan
             frmTwint frm = new frmTwint();
             frm.Show();
         }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 14ae3aefe25bc6b8bc18299d755f8b71a74c2063
         private void btnExit_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 14ae3aefe25bc6b8bc18299d755f8b71a74c2063

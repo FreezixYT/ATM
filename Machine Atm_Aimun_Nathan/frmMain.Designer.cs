@@ -70,7 +70,7 @@
             // 
             // btnExit
             // 
-<<<<<<< HEAD
+
             this.btnExit.BackColor = System.Drawing.Color.RosyBrown;
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -82,19 +82,6 @@
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
-=======
-            this.button4.BackColor = System.Drawing.Color.RosyBrown;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(389, 273);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 31);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Exit";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
->>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
             // 
             // button3
             // 
@@ -197,7 +184,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.Text = "Main";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

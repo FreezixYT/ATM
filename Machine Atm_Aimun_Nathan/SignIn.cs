@@ -72,8 +72,7 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnCreer_Click(object sender, EventArgs e)
         {
             listMdp.Add(SignIn.mdp);
-            listUtilisateur.Add(SignIn.utilisateur);
-
+            listUtilisateur.Add(SignIn.utilisateur); 
         }
 
         private void SignIn_Load(object sender, EventArgs e)
