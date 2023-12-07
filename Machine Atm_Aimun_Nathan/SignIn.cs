@@ -13,16 +13,19 @@ namespace Machine_Atm_Aimun_Nathan
 {
     public partial class SignIn : Form
     {
-        static public List<double> balance = new List<double>();
+        static public List<double> listBalance = new List<double>();
+        static public List<char> listMdp = new List<char>();
+        static public List <string> listUtilisateur=new List<string>();
         static public double montant;
         static public char mdp;
         static public int age;
-        static public char utilisateur;
+        static public string utilisateur;
 
         public SignIn()
         {
             InitializeComponent();
-            balance.Add(montant);
+            
+            SignIn.montant = 500;
         }
 
         private void tbxMdp_TextChanged(object sender, EventArgs e)
@@ -66,9 +69,11 @@ namespace Machine_Atm_Aimun_Nathan
             }
         }
 
-        private void tbxUtilisateur_TextChanged(object sender, EventArgs e)
+        private void btnCreer_Click(object sender, EventArgs e)
         {
-            utilisateur = Convert.ToChar(tbxUtilisateur);
+            listMdp.Add(SignIn.mdp);
+            listUtilisateur.Add(SignIn.utilisateur);
+
         }
     }
 }

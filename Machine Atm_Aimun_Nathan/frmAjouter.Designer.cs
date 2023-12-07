@@ -79,7 +79,7 @@
             this.btnEntrer.Name = "btnEntrer";
             this.btnEntrer.Size = new System.Drawing.Size(79, 22);
             this.btnEntrer.TabIndex = 4;
-            this.btnEntrer.Text = "btnEnter";
+            this.btnEntrer.Text = "Entrer";
             this.btnEntrer.UseVisualStyleBackColor = true;
             // 
             // btnRetourner
@@ -91,6 +91,7 @@
             this.btnRetourner.TabIndex = 5;
             this.btnRetourner.Text = "retourner";
             this.btnRetourner.UseVisualStyleBackColor = true;
+            this.btnRetourner.Click += new System.EventHandler(this.btnRetourner_Click);
             // 
             // frmAjouter
             // 

@@ -44,19 +44,21 @@ namespace Machine_Atm_Aimun_Nathan
             string message = "le montant total: " + SignIn.montant;
             MessageBoxButtons button=MessageBoxButtons.OK;
             MessageBox.Show(message, title, button);
+            SignIn.listBalance.Add(SignIn.montant);
         }
 
-        private void btnRetourner_Click(object sender, EventArgs e)
-        {
-            frmMain frm = new frmMain();
-            frm.ShowDialog();
-        }
 
         private void tbxAjouter_KeyPress(object sender, KeyPressEventArgs e)
         {
             //faire en sorte qu'omn peut mettre que des chiffres
             if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
                 e.Handled = true;
+        }
+
+        private void btnRetourner_Click(object sender, EventArgs e)
+        {
+            frmMain frm = new frmMain();
+            frm.ShowDialog();
         }
     }
 }
