@@ -34,6 +34,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.lblMaBank = new System.Windows.Forms.Label();
+            this.btnTwint = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -41,7 +45,7 @@
             this.button1.BackColor = System.Drawing.Color.RosyBrown;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(333, 82);
+            this.button1.Location = new System.Drawing.Point(343, 95);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 50);
@@ -102,12 +106,48 @@
             this.lblMaBank.TabIndex = 5;
             this.lblMaBank.Text = "Ma Bank";
             // 
+            // btnTwint
+            // 
+            this.btnTwint.BackColor = System.Drawing.Color.RosyBrown;
+            this.btnTwint.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTwint.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTwint.Location = new System.Drawing.Point(191, 162);
+            this.btnTwint.Margin = new System.Windows.Forms.Padding(2);
+            this.btnTwint.Name = "btnTwint";
+            this.btnTwint.Size = new System.Drawing.Size(133, 50);
+            this.btnTwint.TabIndex = 6;
+            this.btnTwint.Text = "TWINT";
+            this.btnTwint.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
+            this.button5.Location = new System.Drawing.Point(41, 33);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(47, 27);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(216, 187);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(71, 10);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(533, 292);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnTwint);
             this.Controls.Add(this.lblMaBank);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -118,6 +158,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.Text = "Main";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,6 +171,9 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblMaBank;
+        private System.Windows.Forms.Button btnTwint;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
