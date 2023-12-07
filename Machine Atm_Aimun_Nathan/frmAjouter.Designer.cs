@@ -74,13 +74,24 @@
             this.btnEntrer.Name = "btnEntrer";
             this.btnEntrer.Size = new System.Drawing.Size(79, 22);
             this.btnEntrer.TabIndex = 4;
+<<<<<<< HEAD
             this.btnEntrer.Text = "btnEnter";
             this.btnEntrer.UseVisualStyleBackColor = false;
             this.btnEntrer.Click += new System.EventHandler(this.btnEntrer_Click);
+=======
+
+            this.btnEntrer.Text = "Entrer";
+            this.btnEntrer.UseVisualStyleBackColor = true;
+
+            this.btnEntrer.Text = "btnEnter";
+            this.btnEntrer.UseVisualStyleBackColor = false;
+
+>>>>>>> a760735211984e4edad0fa3c8632e8c024e27871
             // 
             // btnRetourner
             // 
             this.btnRetourner.BackColor = System.Drawing.Color.RosyBrown;
+<<<<<<< HEAD
             this.btnRetourner.Location = new System.Drawing.Point(443, 259);
             this.btnRetourner.Margin = new System.Windows.Forms.Padding(2);
             this.btnRetourner.Name = "btnRetourner";
@@ -92,6 +103,21 @@
             // 
             // frmAjouter
             // 
+=======
+            this.btnRetourner.Text = "Exit";
+            this.btnRetourner.UseVisualStyleBackColor = false;
+            // 
+            // lblAjouter
+            // 
+            lblAjouter.AutoSize = true;
+            lblAjouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblAjouter.Location = new System.Drawing.Point(168, 5);
+            lblAjouter.Name = "lblAjouter";
+            lblAjouter.Size = new System.Drawing.Size(191, 50);
+            lblAjouter.TabIndex = 6;
+            lblAjouter.Text = "AJOUTER";
+            lblAjouter.UseCompatibleTextRendering = true;
+>>>>>>> a760735211984e4edad0fa3c8632e8c024e27871
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;

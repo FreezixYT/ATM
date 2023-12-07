@@ -70,11 +70,10 @@
             // 
             // btnExit
             // 
-
             this.btnExit.BackColor = System.Drawing.Color.RosyBrown;
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(333, 250);
+            this.btnExit.Location = new System.Drawing.Point(362, 273);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(133, 31);
