@@ -13,6 +13,8 @@ namespace Machine_Atm_Aimun_Nathan
 {
     public partial class SignIn : Form
     {
+        static public List<double> balance = new List<double>();
+        static public double montant;
         static public char mdp;
         static public int age;
         static public char utilisateur;
@@ -20,6 +22,7 @@ namespace Machine_Atm_Aimun_Nathan
         public SignIn()
         {
             InitializeComponent();
+            balance.Add(montant);
         }
 
         private void tbxMdp_TextChanged(object sender, EventArgs e)
