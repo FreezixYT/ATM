@@ -26,5 +26,10 @@ namespace Machine_Atm_Aimun_Nathan
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
