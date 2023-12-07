@@ -68,5 +68,10 @@ namespace Machine_Atm_Aimun_Nathan
             frmMain frm=new frmMain();
             frm.ShowDialog();
         }
+
+        private void frmRetirer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

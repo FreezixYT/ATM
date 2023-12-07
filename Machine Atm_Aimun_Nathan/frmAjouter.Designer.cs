@@ -84,27 +84,17 @@
             this.btnEntrer.Name = "btnEntrer";
             this.btnEntrer.Size = new System.Drawing.Size(79, 22);
             this.btnEntrer.TabIndex = 4;
-<<<<<<< HEAD
+
             this.btnEntrer.Text = "Entrer";
             this.btnEntrer.UseVisualStyleBackColor = true;
-=======
+
             this.btnEntrer.Text = "btnEnter";
             this.btnEntrer.UseVisualStyleBackColor = false;
->>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
+
             // 
             // btnRetourner
             // 
             this.btnRetourner.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnRetourner.Location = new System.Drawing.Point(443, 259);
-            this.btnRetourner.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRetourner.Name = "btnRetourner";
-            this.btnRetourner.Size = new System.Drawing.Size(79, 22);
-            this.btnRetourner.TabIndex = 5;
-<<<<<<< HEAD
-            this.btnRetourner.Text = "retourner";
-            this.btnRetourner.UseVisualStyleBackColor = true;
-            this.btnRetourner.Click += new System.EventHandler(this.btnRetourner_Click);
-=======
             this.btnRetourner.Text = "Exit";
             this.btnRetourner.UseVisualStyleBackColor = false;
             // 
@@ -118,10 +108,6 @@
             lblAjouter.TabIndex = 6;
             lblAjouter.Text = "AJOUTER";
             lblAjouter.UseCompatibleTextRendering = true;
->>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
-            // 
-            // frmAjouter
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
@@ -136,7 +122,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmAjouter";
             this.Text = "frmAjouter";
-            this.Load += new System.EventHandler(this.frmAjouter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

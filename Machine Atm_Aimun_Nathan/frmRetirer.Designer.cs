@@ -99,6 +99,7 @@
             this.Controls.Add(this.btnRetirer);
             this.Name = "frmRetirer";
             this.Text = "frmRetier";
+            this.Load += new System.EventHandler(this.frmRetirer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
