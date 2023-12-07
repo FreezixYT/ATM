@@ -45,7 +45,6 @@ namespace Machine_Atm_Aimun_Nathan
                        frm.Show();
                   }
                }
-
         }
 
         private void tbxAge_TextChanged(object sender, EventArgs e)
