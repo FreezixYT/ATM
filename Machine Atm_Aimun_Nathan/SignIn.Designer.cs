@@ -46,6 +46,7 @@
             this.tbxUtilisateur.Name = "tbxUtilisateur";
             this.tbxUtilisateur.Size = new System.Drawing.Size(314, 20);
             this.tbxUtilisateur.TabIndex = 0;
+            this.tbxUtilisateur.TextChanged += new System.EventHandler(this.tbxUtilisateur_TextChanged);
             // 
             // label1
             // 
@@ -79,6 +80,7 @@
             this.tbxAge.Name = "tbxAge";
             this.tbxAge.Size = new System.Drawing.Size(314, 20);
             this.tbxAge.TabIndex = 4;
+            this.tbxAge.TextChanged += new System.EventHandler(this.tbxAge_TextChanged);
             // 
             // label2
             // 
