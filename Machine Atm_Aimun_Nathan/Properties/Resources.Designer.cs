@@ -63,6 +63,16 @@ namespace Machine_Atm_Aimun_Nathan.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap compte {
+            get {
+                object obj = ResourceManager.GetObject("compte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_removebg_preview__2_ {
             get {
                 object obj = ResourceManager.GetObject("image-removebg-preview (2)", resourceCulture);

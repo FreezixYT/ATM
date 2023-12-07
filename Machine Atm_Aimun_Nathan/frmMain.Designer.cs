@@ -35,9 +35,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.lblMaBank = new System.Windows.Forms.Label();
             this.btnTwint = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnCompte = new System.Windows.Forms.Button();
+            this.lblCompte = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -92,7 +91,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 31);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Alarme";
+            this.button3.Text = "Sécuriter";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -119,25 +118,25 @@
             this.btnTwint.Text = "TWINT";
             this.btnTwint.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnCompte
             // 
-            this.button5.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.button5.Location = new System.Drawing.Point(41, 33);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(47, 27);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnCompte.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.compte;
+            this.btnCompte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCompte.Location = new System.Drawing.Point(12, 12);
+            this.btnCompte.Name = "btnCompte";
+            this.btnCompte.Size = new System.Drawing.Size(27, 26);
+            this.btnCompte.TabIndex = 7;
+            this.btnCompte.UseVisualStyleBackColor = true;
+            this.btnCompte.Click += new System.EventHandler(this.btnCompte_Click);
             // 
-            // pictureBox1
+            // lblCompte
             // 
-            this.pictureBox1.BackgroundImage = global::Machine_Atm_Aimun_Nathan.Properties.Resources.image_removebg_preview__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(216, 187);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 10);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.lblCompte.AutoSize = true;
+            this.lblCompte.Location = new System.Drawing.Point(45, 19);
+            this.lblCompte.Name = "lblCompte";
+            this.lblCompte.Size = new System.Drawing.Size(67, 13);
+            this.lblCompte.TabIndex = 9;
+            this.lblCompte.Text = "Mon Compte";
             // 
             // frmMain
             // 
@@ -145,8 +144,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(533, 292);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.lblCompte);
+            this.Controls.Add(this.btnCompte);
             this.Controls.Add(this.btnTwint);
             this.Controls.Add(this.lblMaBank);
             this.Controls.Add(this.button3);
@@ -158,7 +157,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmMain";
             this.Text = "Main";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,8 +170,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label lblMaBank;
         private System.Windows.Forms.Button btnTwint;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnCompte;
+        private System.Windows.Forms.Label lblCompte;
     }
 }
 
