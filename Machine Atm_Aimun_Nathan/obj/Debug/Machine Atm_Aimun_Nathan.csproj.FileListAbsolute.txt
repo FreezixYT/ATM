@@ -71,3 +71,5 @@ C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.SignIn.resources
+C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.SignIn.resources
+C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmTwint.resources
