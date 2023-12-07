@@ -58,7 +58,6 @@ C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\De
 C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.AssemblyReference.cache
-C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmMdp.resources
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmTwint.resources
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmRetirer.resources
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmAjouter.resources
@@ -71,3 +70,4 @@ C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe.config
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\Desktop\ATM2\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.SignIn.resources
