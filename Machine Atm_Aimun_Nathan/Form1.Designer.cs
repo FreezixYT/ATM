@@ -53,12 +53,13 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Machine_Atm_Aimun_Nathan.Properties.Resources.istockphoto_921475382_170x170_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(237, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(238, 95);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(287, 230);
+            this.pictureBox1.Size = new System.Drawing.Size(291, 238);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -72,6 +73,7 @@
             // 
             // tbx_nb_1
             // 
+            this.tbx_nb_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nb_1.Location = new System.Drawing.Point(321, 200);
             this.tbx_nb_1.Multiline = true;
             this.tbx_nb_1.Name = "tbx_nb_1";
@@ -81,6 +83,7 @@
             // 
             // tbx_nb_2
             // 
+            this.tbx_nb_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nb_2.Location = new System.Drawing.Point(364, 200);
             this.tbx_nb_2.Multiline = true;
             this.tbx_nb_2.Name = "tbx_nb_2";
@@ -90,6 +93,7 @@
             // 
             // tbx_nb_3
             // 
+            this.tbx_nb_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nb_3.Location = new System.Drawing.Point(407, 200);
             this.tbx_nb_3.Multiline = true;
             this.tbx_nb_3.Name = "tbx_nb_3";
