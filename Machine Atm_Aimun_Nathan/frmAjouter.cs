@@ -23,7 +23,6 @@ namespace Machine_Atm_Aimun_Nathan
         public frmAjouter()
         {
             InitializeComponent();
-            this.tbxMontant.KeyPress += new KeyPressEventHandler(tbxMontant_KeyPress);
             this.tbxAjouter.KeyPress += new KeyPressEventHandler(tbxAjouter_KeyPress);
         }
 
@@ -35,17 +34,6 @@ namespace Machine_Atm_Aimun_Nathan
                 e.Handled = true;
         }
 
-        private void btnEntrer_Click(object sender, EventArgs e)
-        {
-            //additionner les deux
-            SignIn.montant = Convert.ToDouble(tbxAjouter.Text) + Convert.ToDouble(tbxMontant.Text);
-            //affichage de resultat final en message box
-            string title = "Felicitations";
-            string message = "le montant total: " + SignIn.montant;
-            MessageBoxButtons button = MessageBoxButtons.OK;
-            MessageBox.Show(message, title, button);
-            SignIn.listBalance.Add(SignIn.montant);
-        }
 
 
         private void tbxAjouter_KeyPress(object sender, KeyPressEventArgs e)
@@ -62,6 +50,18 @@ namespace Machine_Atm_Aimun_Nathan
             frm.ShowDialog();
 
 
+        }
+
+        private void btnEntrer_Click(object sender, EventArgs e)
+        {
+            //additionner les deux
+            SignIn.montant = Convert.ToDouble(tbxAjouter.Text) + SignIn.montant;
+            //affichage de resultat final en message box
+            string title = "Felicitations";
+            string message = "le montant total: " + SignIn.montant;
+            MessageBoxButtons button = MessageBoxButtons.OK;
+            MessageBox.Show(message, title, button);
+            SignIn.listBalance.Add(SignIn.montant);
         }
     }
 

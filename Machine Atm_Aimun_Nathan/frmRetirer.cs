@@ -34,8 +34,13 @@ namespace Machine_Atm_Aimun_Nathan
         {
             //afficher dans le tbxMontantReste le reste montant apres avoir retirer de 'argent
             demandeRetire = Convert.ToDouble(tbxRetirer.Text);
-
-            if (frmRetirer.demandeRetire > SignIn.montant)
+            SignIn.montant = 500;
+            double total = SignIn.montant - demandeRetire  ;
+            string title1 = "felicitations!vous avez reussi a retirer de l'argent.";
+            string message1 = "il vous reste: " + total;
+            MessageBoxButtons button1 = MessageBoxButtons.OK;
+            DialogResult result1 = MessageBox.Show(message1, title1, button1);
+            if (frmRetirer.demandeRetire >(SignIn.montant) )
             {   //faire un meesage box avec 2 bouttons.
                 //un qui dit recommencer pour recommencer et l'aure pour quitter
                 string title = "ERROR";
@@ -51,14 +56,6 @@ namespace Machine_Atm_Aimun_Nathan
                 {
                     frmMain frm = new frmMain();
                     frm.Show();
-                }
-                else
-                {
-                    double total = SignIn.montant + demandeRetire;
-                    string title1 = "felicitations!vous avez reussi a retirer de l'argent.";
-                    string message1 = "il vous reste: " + total;
-                    MessageBoxButtons button1 = MessageBoxButtons.OK;
-                    DialogResult result1 = MessageBox.Show(message1, title1, button1);
                 }
             }
         }
