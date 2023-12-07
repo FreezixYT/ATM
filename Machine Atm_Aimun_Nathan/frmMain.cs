@@ -62,7 +62,7 @@ namespace Machine_Atm_Aimun_Nathan
             }   
 
                 Thread.Sleep(20); 
-            }
+        }
 
         private void btnCompte_Click(object sender, EventArgs e)
         {
