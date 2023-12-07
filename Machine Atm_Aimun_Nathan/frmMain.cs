@@ -44,11 +44,6 @@ namespace Machine_Atm_Aimun_Nathan
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void PlayAlarm()
         {
             while (isAlarmOn)
@@ -75,6 +70,16 @@ namespace Machine_Atm_Aimun_Nathan
             frmTwint frm = new frmTwint();
             frm.Show();
         }
+<<<<<<< HEAD
+
+        private void btnExit_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}
+=======
+>>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
 
         private void frmMain_Load(object sender, EventArgs e)
         {

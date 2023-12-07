@@ -84,8 +84,13 @@
             this.btnEntrer.Name = "btnEntrer";
             this.btnEntrer.Size = new System.Drawing.Size(79, 22);
             this.btnEntrer.TabIndex = 4;
+<<<<<<< HEAD
+            this.btnEntrer.Text = "Entrer";
+            this.btnEntrer.UseVisualStyleBackColor = true;
+=======
             this.btnEntrer.Text = "btnEnter";
             this.btnEntrer.UseVisualStyleBackColor = false;
+>>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
             // 
             // btnRetourner
             // 
@@ -95,6 +100,11 @@
             this.btnRetourner.Name = "btnRetourner";
             this.btnRetourner.Size = new System.Drawing.Size(79, 22);
             this.btnRetourner.TabIndex = 5;
+<<<<<<< HEAD
+            this.btnRetourner.Text = "retourner";
+            this.btnRetourner.UseVisualStyleBackColor = true;
+            this.btnRetourner.Click += new System.EventHandler(this.btnRetourner_Click);
+=======
             this.btnRetourner.Text = "Exit";
             this.btnRetourner.UseVisualStyleBackColor = false;
             // 
@@ -108,6 +118,7 @@
             lblAjouter.TabIndex = 6;
             lblAjouter.Text = "AJOUTER";
             lblAjouter.UseCompatibleTextRendering = true;
+>>>>>>> 2e234c0b8070dc548bfb440e99285ca4aa23222d
             // 
             // frmAjouter
             // 

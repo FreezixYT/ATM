@@ -30,7 +30,7 @@
         {
             this.tbxUtilisateur = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCreer = new System.Windows.Forms.Button();
             this.tbxMdp = new System.Windows.Forms.TextBox();
             this.tbxAge = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,7 +46,6 @@
             this.tbxUtilisateur.Name = "tbxUtilisateur";
             this.tbxUtilisateur.Size = new System.Drawing.Size(314, 20);
             this.tbxUtilisateur.TabIndex = 0;
-            this.tbxUtilisateur.TextChanged += new System.EventHandler(this.tbxUtilisateur_TextChanged);
             // 
             // label1
             // 
@@ -57,14 +56,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "lblUtilisateur";
             // 
-            // button1
+            // btnCreer
             // 
-            this.button1.Location = new System.Drawing.Point(332, 294);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 40);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Creer";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCreer.Location = new System.Drawing.Point(332, 294);
+            this.btnCreer.Name = "btnCreer";
+            this.btnCreer.Size = new System.Drawing.Size(122, 40);
+            this.btnCreer.TabIndex = 2;
+            this.btnCreer.Text = "Creer";
+            this.btnCreer.UseVisualStyleBackColor = true;
+            this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
             // tbxMdp
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbxAge);
             this.Controls.Add(this.tbxMdp);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCreer);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbxUtilisateur);
             this.Name = "SignIn";
@@ -139,7 +139,7 @@
 
         private System.Windows.Forms.TextBox tbxUtilisateur;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCreer;
         private System.Windows.Forms.TextBox tbxMdp;
         private System.Windows.Forms.TextBox tbxAge;
         private System.Windows.Forms.Label label2;
