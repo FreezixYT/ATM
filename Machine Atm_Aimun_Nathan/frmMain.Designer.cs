@@ -117,6 +117,7 @@
             this.btnTwint.TabIndex = 6;
             this.btnTwint.Text = "TWINT";
             this.btnTwint.UseVisualStyleBackColor = false;
+            this.btnTwint.Click += new System.EventHandler(this.btnTwint_Click);
             // 
             // btnCompte
             // 

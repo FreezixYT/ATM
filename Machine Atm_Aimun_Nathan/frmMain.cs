@@ -69,6 +69,12 @@ namespace Machine_Atm_Aimun_Nathan
             SignIn signIn = new SignIn();
             signIn.Show();
         }
+
+        private void btnTwint_Click(object sender, EventArgs e)
+        {
+            frmTwint frm = new frmTwint();
+            frm.Show();
+        }
     }
 }
 
