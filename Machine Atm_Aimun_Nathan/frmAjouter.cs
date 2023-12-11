@@ -26,16 +26,6 @@ namespace Machine_Atm_Aimun_Nathan
             this.tbxAjouter.KeyPress += new KeyPressEventHandler(tbxAjouter_KeyPress);
         }
 
-        private void tbxMontant_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            //ajouter le montant dans une liste pour pouvoir l'utiliser apres
-            //faire en sorte qu'omn peut mettre que des chiffres
-            if (!Char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
-                e.Handled = true;
-        }
-
-
-
         private void tbxAjouter_KeyPress(object sender, KeyPressEventArgs e)
         {
             //faire en sorte qu'omn peut mettre que des chiffres

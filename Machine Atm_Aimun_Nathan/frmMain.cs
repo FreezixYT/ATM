@@ -15,20 +15,6 @@ namespace Machine_Atm_Aimun_Nathan
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            frmAjouter frm = new frmAjouter();
-            frm.Show();
-            SystemSounds.Question.Play();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmRetirer frm = new frmRetirer();
-            frm.Show();
-            SystemSounds.Asterisk.Play();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             if (!isAlarmOn)
@@ -73,6 +59,29 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnExit_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void ajouterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAjouter frm = new frmAjouter();
+            frm.Show();
+        }
+
+        private void retirerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRetirer frm = new frmRetirer();
+        }
+
+        private void twintToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTwint twint = new frmTwint();  
+            twint.Show();
+        }
+
+        private void lotterieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTwint lotterie = new frmTwint();
+            lotterie.Show();
         }
     }
 }
