@@ -107,3 +107,4 @@ C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machin
 C:\Users\nathan\Desktop\Bureau\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmLoterie.resources
 C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmLoterie.resources
 C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.Form2.resources
+C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.AfficheCompte.resources

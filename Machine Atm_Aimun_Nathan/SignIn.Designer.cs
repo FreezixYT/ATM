@@ -29,36 +29,49 @@
         private void InitializeComponent()
         {
             this.tbxUtilisateur = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblUtilisateur = new System.Windows.Forms.Label();
             this.btnCreer = new System.Windows.Forms.Button();
             this.tbxMdp = new System.Windows.Forms.TextBox();
             this.tbxAge = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblCarteNbr = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.lblNom = new System.Windows.Forms.Label();
+            this.tbxNom = new System.Windows.Forms.TextBox();
+            this.tbxExp = new System.Windows.Forms.TextBox();
+            this.tbxBalance = new System.Windows.Forms.TextBox();
+            this.tbxPrnm = new System.Windows.Forms.TextBox();
+            this.tbxCartenbr = new System.Windows.Forms.TextBox();
+            this.lblprnm = new System.Windows.Forms.Label();
+            this.lblMdp = new System.Windows.Forms.Label();
+            this.lblExp = new System.Windows.Forms.Label();
+            this.lblBalance = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.lblLength = new System.Windows.Forms.Label();
+            this.lblLengthNbr = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
             // tbxUtilisateur
             // 
-            this.tbxUtilisateur.Location = new System.Drawing.Point(217, 117);
+            this.tbxUtilisateur.Location = new System.Drawing.Point(217, 121);
             this.tbxUtilisateur.Name = "tbxUtilisateur";
             this.tbxUtilisateur.Size = new System.Drawing.Size(314, 20);
             this.tbxUtilisateur.TabIndex = 0;
             // 
-            // label1
+            // lblUtilisateur
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(120, 124);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "lblUtilisateur";
+            this.lblUtilisateur.AutoSize = true;
+            this.lblUtilisateur.Location = new System.Drawing.Point(109, 128);
+            this.lblUtilisateur.Name = "lblUtilisateur";
+            this.lblUtilisateur.Size = new System.Drawing.Size(53, 13);
+            this.lblUtilisateur.TabIndex = 1;
+            this.lblUtilisateur.Text = "Utilisateur";
             // 
             // btnCreer
             // 
-            this.btnCreer.Location = new System.Drawing.Point(332, 294);
+            this.btnCreer.Location = new System.Drawing.Point(587, 382);
             this.btnCreer.Name = "btnCreer";
             this.btnCreer.Size = new System.Drawing.Size(122, 40);
             this.btnCreer.TabIndex = 2;
@@ -68,7 +81,7 @@
             // 
             // tbxMdp
             // 
-            this.tbxMdp.Location = new System.Drawing.Point(217, 229);
+            this.tbxMdp.Location = new System.Drawing.Point(217, 245);
             this.tbxMdp.Name = "tbxMdp";
             this.tbxMdp.Size = new System.Drawing.Size(314, 20);
             this.tbxMdp.TabIndex = 3;
@@ -76,29 +89,29 @@
             // 
             // tbxAge
             // 
-            this.tbxAge.Location = new System.Drawing.Point(217, 177);
+            this.tbxAge.Location = new System.Drawing.Point(217, 75);
             this.tbxAge.Name = "tbxAge";
             this.tbxAge.Size = new System.Drawing.Size(314, 20);
             this.tbxAge.TabIndex = 4;
             this.tbxAge.TextChanged += new System.EventHandler(this.tbxAge_TextChanged);
             // 
-            // label2
+            // lblAge
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(120, 177);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "lblAge";
+            this.lblAge.AutoSize = true;
+            this.lblAge.Location = new System.Drawing.Point(119, 75);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(26, 13);
+            this.lblAge.TabIndex = 6;
+            this.lblAge.Text = "Age";
             // 
-            // label3
+            // lblCarteNbr
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(118, 232);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "lblMdp";
+            this.lblCarteNbr.AutoSize = true;
+            this.lblCarteNbr.Location = new System.Drawing.Point(99, 290);
+            this.lblCarteNbr.Name = "lblCarteNbr";
+            this.lblCarteNbr.Size = new System.Drawing.Size(70, 13);
+            this.lblCarteNbr.TabIndex = 7;
+            this.lblCarteNbr.Text = "Carte nombre";
             // 
             // label4
             // 
@@ -113,18 +126,139 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
+            // lblNom
+            // 
+            this.lblNom.AutoSize = true;
+            this.lblNom.Location = new System.Drawing.Point(113, 168);
+            this.lblNom.Name = "lblNom";
+            this.lblNom.Size = new System.Drawing.Size(29, 13);
+            this.lblNom.TabIndex = 9;
+            this.lblNom.Text = "Nom";
+            // 
+            // tbxNom
+            // 
+            this.tbxNom.Location = new System.Drawing.Point(217, 165);
+            this.tbxNom.Name = "tbxNom";
+            this.tbxNom.Size = new System.Drawing.Size(314, 20);
+            this.tbxNom.TabIndex = 10;
+            // 
+            // tbxExp
+            // 
+            this.tbxExp.Location = new System.Drawing.Point(217, 321);
+            this.tbxExp.Name = "tbxExp";
+            this.tbxExp.Size = new System.Drawing.Size(314, 20);
+            this.tbxExp.TabIndex = 11;
+            // 
+            // tbxBalance
+            // 
+            this.tbxBalance.Location = new System.Drawing.Point(217, 356);
+            this.tbxBalance.Name = "tbxBalance";
+            this.tbxBalance.Size = new System.Drawing.Size(314, 20);
+            this.tbxBalance.TabIndex = 12;
+            // 
+            // tbxPrnm
+            // 
+            this.tbxPrnm.Location = new System.Drawing.Point(217, 207);
+            this.tbxPrnm.Name = "tbxPrnm";
+            this.tbxPrnm.Size = new System.Drawing.Size(314, 20);
+            this.tbxPrnm.TabIndex = 13;
+            // 
+            // tbxCartenbr
+            // 
+            this.tbxCartenbr.Location = new System.Drawing.Point(217, 283);
+            this.tbxCartenbr.Name = "tbxCartenbr";
+            this.tbxCartenbr.Size = new System.Drawing.Size(314, 20);
+            this.tbxCartenbr.TabIndex = 14;
+            // 
+            // lblprnm
+            // 
+            this.lblprnm.AutoSize = true;
+            this.lblprnm.Location = new System.Drawing.Point(109, 210);
+            this.lblprnm.Name = "lblprnm";
+            this.lblprnm.Size = new System.Drawing.Size(43, 13);
+            this.lblprnm.TabIndex = 15;
+            this.lblprnm.Text = "Prénom";
+            // 
+            // lblMdp
+            // 
+            this.lblMdp.AutoSize = true;
+            this.lblMdp.Location = new System.Drawing.Point(99, 252);
+            this.lblMdp.Name = "lblMdp";
+            this.lblMdp.Size = new System.Drawing.Size(72, 13);
+            this.lblMdp.TabIndex = 16;
+            this.lblMdp.Text = "Mot de Passe";
+            // 
+            // lblExp
+            // 
+            this.lblExp.AutoSize = true;
+            this.lblExp.Location = new System.Drawing.Point(99, 321);
+            this.lblExp.Name = "lblExp";
+            this.lblExp.Size = new System.Drawing.Size(76, 13);
+            this.lblExp.TabIndex = 17;
+            this.lblExp.Text = "expiration date";
+            // 
+            // lblBalance
+            // 
+            this.lblBalance.AutoSize = true;
+            this.lblBalance.Location = new System.Drawing.Point(99, 359);
+            this.lblBalance.Name = "lblBalance";
+            this.lblBalance.Size = new System.Drawing.Size(48, 13);
+            this.lblBalance.TabIndex = 18;
+            this.lblBalance.Text = "balance:";
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(424, 382);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(122, 40);
+            this.btnClear.TabIndex = 19;
+            this.btnClear.Text = "Abondonner";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // lblLength
+            // 
+            this.lblLength.AutoSize = true;
+            this.lblLength.Location = new System.Drawing.Point(326, 267);
+            this.lblLength.Name = "lblLength";
+            this.lblLength.Size = new System.Drawing.Size(69, 13);
+            this.lblLength.TabIndex = 20;
+            this.lblLength.Text = "min-8 max-30";
+            // 
+            // lblLengthNbr
+            // 
+            this.lblLengthNbr.AutoSize = true;
+            this.lblLengthNbr.Location = new System.Drawing.Point(336, 306);
+            this.lblLengthNbr.Name = "lblLengthNbr";
+            this.lblLengthNbr.Size = new System.Drawing.Size(50, 13);
+            this.lblLengthNbr.TabIndex = 21;
+            this.lblLengthNbr.Text = "8 chiffres";
+            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblLengthNbr);
+            this.Controls.Add(this.lblLength);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.lblBalance);
+            this.Controls.Add(this.lblExp);
+            this.Controls.Add(this.lblMdp);
+            this.Controls.Add(this.lblprnm);
+            this.Controls.Add(this.tbxCartenbr);
+            this.Controls.Add(this.tbxPrnm);
+            this.Controls.Add(this.tbxBalance);
+            this.Controls.Add(this.tbxExp);
+            this.Controls.Add(this.tbxNom);
+            this.Controls.Add(this.lblNom);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblCarteNbr);
+            this.Controls.Add(this.lblAge);
             this.Controls.Add(this.tbxAge);
             this.Controls.Add(this.tbxMdp);
             this.Controls.Add(this.btnCreer);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblUtilisateur);
             this.Controls.Add(this.tbxUtilisateur);
             this.Name = "SignIn";
             this.Text = "SignIn";
@@ -138,13 +272,26 @@
         #endregion
 
         private System.Windows.Forms.TextBox tbxUtilisateur;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblUtilisateur;
         private System.Windows.Forms.Button btnCreer;
         private System.Windows.Forms.TextBox tbxMdp;
         private System.Windows.Forms.TextBox tbxAge;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblCarteNbr;
         private System.Windows.Forms.Label label4;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
+        private System.Windows.Forms.Label lblBalance;
+        private System.Windows.Forms.Label lblExp;
+        private System.Windows.Forms.Label lblMdp;
+        private System.Windows.Forms.Label lblprnm;
+        private System.Windows.Forms.TextBox tbxCartenbr;
+        private System.Windows.Forms.TextBox tbxPrnm;
+        private System.Windows.Forms.TextBox tbxBalance;
+        private System.Windows.Forms.TextBox tbxExp;
+        private System.Windows.Forms.TextBox tbxNom;
+        private System.Windows.Forms.Label lblNom;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label lblLength;
+        private System.Windows.Forms.Label lblLengthNbr;
     }
 }

@@ -79,5 +79,11 @@ namespace Machine_Atm_Aimun_Nathan
         {
 
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+        }
     }
 }

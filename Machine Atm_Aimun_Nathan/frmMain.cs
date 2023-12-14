@@ -45,12 +45,6 @@ namespace Machine_Atm_Aimun_Nathan
                 Thread.Sleep(20); 
         }
 
-        private void btnCompte_Click(object sender, EventArgs e)
-        {
-            SignIn signIn = new SignIn();
-            signIn.Show();
-        }
-
         private void btnTwint_Click(object sender, EventArgs e)
         {
             frmTwint frm = new frmTwint();
@@ -70,6 +64,7 @@ namespace Machine_Atm_Aimun_Nathan
         private void retirerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmRetirer frm = new frmRetirer();
+            frm.Show();
         }
 
         private void twintToolStripMenuItem_Click(object sender, EventArgs e)
@@ -82,6 +77,17 @@ namespace Machine_Atm_Aimun_Nathan
         {
             frmTwint lotterie = new frmTwint();
             lotterie.Show();
+        }
+
+        private void btnOui_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnNon_Click(object sender, EventArgs e)
+        {
+            SignIn signIn = new SignIn();
+            signIn.Show();
         }
     }
 }
