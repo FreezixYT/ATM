@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Machine_Atm_Aimun_Nathan
 {
-    public partial class Form2 : Form
+    public partial class envoyerTwint : Form
     {
-        public Form2()
+        public envoyerTwint()
         {
             InitializeComponent();
         }
@@ -20,6 +20,16 @@ namespace Machine_Atm_Aimun_Nathan
         private void tbxArgentAEnvoyer_TextChanged(object sender, EventArgs e)
         {
             string somme = Convert.ToString(tbxArgentAEnvoyer);
+        }
+
+        private void btnEnvoyerArgent_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void envoyerTwint_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

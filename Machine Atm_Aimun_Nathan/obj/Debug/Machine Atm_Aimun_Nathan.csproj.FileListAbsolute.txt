@@ -125,3 +125,4 @@ C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine At
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.envoyerTwint.resources
