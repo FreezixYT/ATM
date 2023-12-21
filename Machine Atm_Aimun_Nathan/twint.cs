@@ -31,6 +31,7 @@ namespace Machine_Atm_Aimun_Nathan
         {
             Console.WriteLine("a qui voulez vous envoyer l'argent ? ");
 
+
         }
 
         private void label1_Click(object sender, EventArgs e)
