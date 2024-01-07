@@ -81,7 +81,8 @@ namespace Machine_Atm_Aimun_Nathan
 
         private void btnOui_Click(object sender, EventArgs e)
         {
-            
+            AfficheCompte frm= new AfficheCompte();
+            frm.Show();
         }
 
         private void btnNon_Click(object sender, EventArgs e)
