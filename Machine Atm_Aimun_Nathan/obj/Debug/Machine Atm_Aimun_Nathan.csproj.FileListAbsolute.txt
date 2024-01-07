@@ -126,3 +126,20 @@ C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine At
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
 C:\Users\nathan\Desktop\Bureau\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.envoyerTwint.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe.config
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\bin\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.AssemblyReference.cache
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.AfficheCompte.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmLoterie.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.envoyerTwint.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.SignIn.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmTwint.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmRetirer.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmAjouter.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.frmMain.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.Properties.Resources.resources
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.GenerateResource.cache
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
+C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
