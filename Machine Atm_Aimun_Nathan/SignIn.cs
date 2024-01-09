@@ -39,7 +39,8 @@ namespace Machine_Atm_Aimun_Nathan
                 DialogResult result = MessageBox.Show(message, title, button);
                 if (result == DialogResult.OK)
                 {
-                    Application.Exit();
+                    frmMain frm=new frmMain();
+                    frm.Show();
                 }
             }
             int mdp = Convert.ToInt32(tbxMdp);

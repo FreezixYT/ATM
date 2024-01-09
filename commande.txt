@@ -1,6 +1,13 @@
 List des commande git     |
 --------------------------|
 
+--------------------------
+Copy
+--------------------------
+Git clone {url}
+Git init
+
+---------------------
 Ajouter un commit :
 ---------------------
 git pull
@@ -8,6 +15,8 @@ git add .
 git commit -m "message"
 git push origin main
 
+
+----------------------
 Autre commande utile :
 ----------------------
 git status

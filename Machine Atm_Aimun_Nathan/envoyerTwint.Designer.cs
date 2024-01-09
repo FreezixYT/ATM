@@ -1,6 +1,6 @@
 ﻿namespace Machine_Atm_Aimun_Nathan
 {
-    partial class Form2
+    partial class envoyerTwint
     {
         /// <summary>
         /// Required designer variable.
@@ -72,6 +72,7 @@
             this.btnEnvoyerArgent.TabIndex = 2;
             this.btnEnvoyerArgent.Text = "Envoyer";
             this.btnEnvoyerArgent.UseVisualStyleBackColor = false;
+            this.btnEnvoyerArgent.Click += new System.EventHandler(this.btnEnvoyerArgent_Click);
             // 
             // label1
             // 
@@ -101,7 +102,7 @@
             this.lblContacte.TabIndex = 5;
             this.lblContacte.Text = "Contacte :";
             // 
-            // Form2
+            // envoyerTwint
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,8 +114,9 @@
             this.Controls.Add(this.btnEnvoyerArgent);
             this.Controls.Add(this.Michelle);
             this.Controls.Add(this.lblEnvoyer);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "envoyerTwint";
+            this.Text = "Envoyer de l\'argent";
+            this.Load += new System.EventHandler(this.envoyerTwint_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
