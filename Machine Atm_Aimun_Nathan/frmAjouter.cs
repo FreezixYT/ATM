@@ -45,13 +45,13 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnEntrer_Click(object sender, EventArgs e)
         {
             //additionner les deux
-            SignIn.montant = Convert.ToDouble(tbxAjouter.Text) + SignIn.montant;
+            SignIn.balance = Convert.ToDouble(tbxAjouter.Text) + SignIn.balance;
             //affichage de resultat final en message box
             string title = "Felicitations";
-            string message = "le montant total: " + SignIn.montant;
+            string message = "le montant total: " + SignIn.balance;
             MessageBoxButtons button = MessageBoxButtons.OK;
             MessageBox.Show(message, title, button);
-            SignIn.listBalance.Add(SignIn.montant);
+            SignIn.listBalance.Add(SignIn.balance);
         }
     }
 

@@ -16,17 +16,19 @@ namespace Machine_Atm_Aimun_Nathan
         public AfficheCompte()
         {
             InitializeComponent();
-        }
 
-
-        private void lblNomm_Click(object sender, EventArgs e)
-        {
 
         }
 
-        private void lblCarteN_Click(object sender, EventArgs e)
+        private void lblUtilisateur_Click(object sender, EventArgs e)
         {
+            lblUtilisateur.Text =SignIn.utilisateur;
+        }
 
+        private void btnReturner_Click(object sender, EventArgs e)
+        {
+            frmMain frm=new frmMain();
+            frm.ShowDialog();
         }
     }
 }

@@ -39,7 +39,6 @@
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.lblNom = new System.Windows.Forms.Label();
             this.tbxNom = new System.Windows.Forms.TextBox();
-            this.tbxExp = new System.Windows.Forms.TextBox();
             this.tbxBalance = new System.Windows.Forms.TextBox();
             this.tbxPrnm = new System.Windows.Forms.TextBox();
             this.tbxCartenbr = new System.Windows.Forms.TextBox();
@@ -50,6 +49,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.lblLength = new System.Windows.Forms.Label();
             this.lblLengthNbr = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,7 +85,6 @@
             this.tbxMdp.Name = "tbxMdp";
             this.tbxMdp.Size = new System.Drawing.Size(314, 20);
             this.tbxMdp.TabIndex = 3;
-            this.tbxMdp.TextChanged += new System.EventHandler(this.tbxMdp_TextChanged);
             // 
             // tbxAge
             // 
@@ -93,7 +92,6 @@
             this.tbxAge.Name = "tbxAge";
             this.tbxAge.Size = new System.Drawing.Size(314, 20);
             this.tbxAge.TabIndex = 4;
-            this.tbxAge.TextChanged += new System.EventHandler(this.tbxAge_TextChanged);
             // 
             // lblAge
             // 
@@ -141,13 +139,6 @@
             this.tbxNom.Name = "tbxNom";
             this.tbxNom.Size = new System.Drawing.Size(314, 20);
             this.tbxNom.TabIndex = 10;
-            // 
-            // tbxExp
-            // 
-            this.tbxExp.Location = new System.Drawing.Point(217, 321);
-            this.tbxExp.Name = "tbxExp";
-            this.tbxExp.Size = new System.Drawing.Size(314, 20);
-            this.tbxExp.TabIndex = 11;
             // 
             // tbxBalance
             // 
@@ -234,11 +225,20 @@
             this.lblLengthNbr.TabIndex = 21;
             this.lblLengthNbr.Text = "8 chiffres";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(217, 322);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(314, 20);
+            this.dateTimePicker1.TabIndex = 22;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblLengthNbr);
             this.Controls.Add(this.lblLength);
             this.Controls.Add(this.btnClear);
@@ -249,7 +249,6 @@
             this.Controls.Add(this.tbxCartenbr);
             this.Controls.Add(this.tbxPrnm);
             this.Controls.Add(this.tbxBalance);
-            this.Controls.Add(this.tbxExp);
             this.Controls.Add(this.tbxNom);
             this.Controls.Add(this.lblNom);
             this.Controls.Add(this.label4);
@@ -262,7 +261,6 @@
             this.Controls.Add(this.tbxUtilisateur);
             this.Name = "SignIn";
             this.Text = "SignIn";
-            this.Load += new System.EventHandler(this.SignIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -287,11 +285,11 @@
         private System.Windows.Forms.TextBox tbxCartenbr;
         private System.Windows.Forms.TextBox tbxPrnm;
         private System.Windows.Forms.TextBox tbxBalance;
-        private System.Windows.Forms.TextBox tbxExp;
         private System.Windows.Forms.TextBox tbxNom;
         private System.Windows.Forms.Label lblNom;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label lblLength;
         private System.Windows.Forms.Label lblLengthNbr;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

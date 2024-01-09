@@ -101,6 +101,7 @@
             this.btnCompte.Size = new System.Drawing.Size(27, 26);
             this.btnCompte.TabIndex = 7;
             this.btnCompte.UseVisualStyleBackColor = true;
+            this.btnCompte.Click += new System.EventHandler(this.btnCompte_Click);
             // 
             // lblCompte
             // 

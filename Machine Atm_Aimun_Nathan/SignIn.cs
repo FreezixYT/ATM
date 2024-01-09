@@ -14,10 +14,10 @@ namespace Machine_Atm_Aimun_Nathan
     public partial class SignIn : Form
     {
         static public List<double> listBalance = new List<double>();
-        static public List<char> listMdp = new List<char>();
+        static public List<int> listMdp = new List<int>();
         static public List <string> listUtilisateur=new List<string>();
-        static public double montant;
-        static public char mdp;
+        static public double balance;
+        static public int mdp;
         static public int age;
         static public string utilisateur;
 
@@ -25,16 +25,6 @@ namespace Machine_Atm_Aimun_Nathan
         {
             InitializeComponent();
             
-            SignIn.montant = 500;
-        }
-
-        private void tbxMdp_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tbxAge_TextChanged(object sender, EventArgs e)
-        {
             
         }
 
@@ -52,10 +42,7 @@ namespace Machine_Atm_Aimun_Nathan
                     Application.Exit();
                 }
             }
-            mdp = Convert.ToChar(tbxMdp.PasswordChar);
-            tbxMdp.Text = "";
-            tbxMdp.PasswordChar = '*';
-            tbxMdp.MaxLength = 14;
+            int mdp = Convert.ToInt32(tbxMdp);
             if (SignIn.mdp < 8)
             {
                 string title = "ERROR";
@@ -64,8 +51,7 @@ namespace Machine_Atm_Aimun_Nathan
                 DialogResult result = MessageBox.Show(message, title, button);
                 if (result == DialogResult.Yes)
                 {
-                    frmRetirer frm = new frmRetirer();
-                    frm.ShowDialog();
+                    Application.Exit();
                 }
                 else if (result == DialogResult.No)
                 {
@@ -73,19 +59,21 @@ namespace Machine_Atm_Aimun_Nathan
                     frm.Show();
                 }
             }
+            double balance = Convert.ToDouble(tbxBalance);
             listMdp.Add(SignIn.mdp);
-            listUtilisateur.Add(SignIn.utilisateur); 
-        }
-
-        private void SignIn_Load(object sender, EventArgs e)
-        {
-
+            listUtilisateur.Add(SignIn.utilisateur);
+            listBalance.Add(SignIn.balance);
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             frmMain frmMain = new frmMain();
             frmMain.Show();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+        
         }
     }
 }

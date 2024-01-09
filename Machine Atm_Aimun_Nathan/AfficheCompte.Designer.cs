@@ -31,7 +31,7 @@
             this.btnReturner = new System.Windows.Forms.Button();
             this.pnlCompte = new System.Windows.Forms.Panel();
             this.lblCarteN = new System.Windows.Forms.Label();
-            this.lbUtilisateur = new System.Windows.Forms.Label();
+            this.lblUtilisateur = new System.Windows.Forms.Label();
             this.lblCompte = new System.Windows.Forms.Label();
             this.lblCarteNbr = new System.Windows.Forms.Label();
             this.lblCNom = new System.Windows.Forms.Label();
@@ -48,13 +48,14 @@
             this.btnReturner.TabIndex = 2;
             this.btnReturner.Text = "Retourner";
             this.btnReturner.UseVisualStyleBackColor = true;
+            this.btnReturner.Click += new System.EventHandler(this.btnReturner_Click);
             // 
             // pnlCompte
             // 
             this.pnlCompte.BackColor = System.Drawing.Color.Azure;
             this.pnlCompte.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlCompte.Controls.Add(this.lblCarteN);
-            this.pnlCompte.Controls.Add(this.lbUtilisateur);
+            this.pnlCompte.Controls.Add(this.lblUtilisateur);
             this.pnlCompte.Controls.Add(this.lblCompte);
             this.pnlCompte.Controls.Add(this.lblCarteNbr);
             this.pnlCompte.Controls.Add(this.lblCNom);
@@ -71,22 +72,21 @@
             this.lblCarteN.ForeColor = System.Drawing.Color.Black;
             this.lblCarteN.Location = new System.Drawing.Point(176, 129);
             this.lblCarteN.Name = "lblCarteN";
-            this.lblCarteN.Size = new System.Drawing.Size(102, 24);
+            this.lblCarteN.Size = new System.Drawing.Size(17, 24);
             this.lblCarteN.TabIndex = 4;
-            this.lblCarteN.Text = "Utilisateur";
-            this.lblCarteN.Click += new System.EventHandler(this.lblCarteN_Click);
+            this.lblCarteN.Text = "-";
             // 
-            // lbUtilisateur
+            // lblUtilisateur
             // 
-            this.lbUtilisateur.AutoSize = true;
-            this.lbUtilisateur.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUtilisateur.ForeColor = System.Drawing.Color.Black;
-            this.lbUtilisateur.Location = new System.Drawing.Point(176, 78);
-            this.lbUtilisateur.Name = "lbUtilisateur";
-            this.lbUtilisateur.Size = new System.Drawing.Size(102, 24);
-            this.lbUtilisateur.TabIndex = 3;
-            this.lbUtilisateur.Text = "Utilisateur";
-            this.lbUtilisateur.Click += new System.EventHandler(this.lblNomm_Click);
+            this.lblUtilisateur.AutoSize = true;
+            this.lblUtilisateur.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUtilisateur.ForeColor = System.Drawing.Color.Black;
+            this.lblUtilisateur.Location = new System.Drawing.Point(176, 78);
+            this.lblUtilisateur.Name = "lblUtilisateur";
+            this.lblUtilisateur.Size = new System.Drawing.Size(17, 24);
+            this.lblUtilisateur.TabIndex = 3;
+            this.lblUtilisateur.Text = "-";
+            this.lblUtilisateur.Click += new System.EventHandler(this.lblUtilisateur_Click);
             // 
             // lblCompte
             // 
@@ -95,9 +95,9 @@
             this.lblCompte.ForeColor = System.Drawing.Color.Black;
             this.lblCompte.Location = new System.Drawing.Point(164, 17);
             this.lblCompte.Name = "lblCompte";
-            this.lblCompte.Size = new System.Drawing.Size(102, 24);
+            this.lblCompte.Size = new System.Drawing.Size(70, 24);
             this.lblCompte.TabIndex = 2;
-            this.lblCompte.Text = "Utilisateur";
+            this.lblCompte.Text = "Compte";
             // 
             // lblCarteNbr
             // 
@@ -161,6 +161,6 @@
         private System.Windows.Forms.Label lblCarteNbr;
         private System.Windows.Forms.Label lblCNom;
         private System.Windows.Forms.Label lblCarteN;
-        private System.Windows.Forms.Label lbUtilisateur;
+        private System.Windows.Forms.Label lblUtilisateur;
     }
 }
