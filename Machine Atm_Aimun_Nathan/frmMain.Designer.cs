@@ -44,10 +44,6 @@
             this.voirMesComptesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.twintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lotterieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comptesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.deconnexionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nouveauCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.voirMesComptesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblDemandeCompte = new System.Windows.Forms.Label();
             this.btnOui = new System.Windows.Forms.Button();
             this.btnNon = new System.Windows.Forms.Button();
@@ -125,8 +121,7 @@
             // 
             this.menuStripMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem,
-            this.comptesToolStripMenuItem1});
+            this.menuToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
             this.menuStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -149,14 +144,14 @@
             // ajouterToolStripMenuItem
             // 
             this.ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
-            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ajouterToolStripMenuItem.Text = "ajouter";
             this.ajouterToolStripMenuItem.Click += new System.EventHandler(this.ajouterToolStripMenuItem_Click);
             // 
             // retirerToolStripMenuItem
             // 
             this.retirerToolStripMenuItem.Name = "retirerToolStripMenuItem";
-            this.retirerToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.retirerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.retirerToolStripMenuItem.Text = "retirer";
             this.retirerToolStripMenuItem.Click += new System.EventHandler(this.retirerToolStripMenuItem_Click);
             // 
@@ -167,68 +162,43 @@
             this.nouveauCompteToolStripMenuItem1,
             this.voirMesComptesToolStripMenuItem1});
             this.comptesToolStripMenuItem.Name = "comptesToolStripMenuItem";
-            this.comptesToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.comptesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comptesToolStripMenuItem.Text = "comptes";
             // 
             // deconnexionToolStripMenuItem1
             // 
             this.deconnexionToolStripMenuItem1.Name = "deconnexionToolStripMenuItem1";
-            this.deconnexionToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.deconnexionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.deconnexionToolStripMenuItem1.Text = "deconnexion";
+            this.deconnexionToolStripMenuItem1.Click += new System.EventHandler(this.deconnexionToolStripMenuItem1_Click);
             // 
             // nouveauCompteToolStripMenuItem1
             // 
             this.nouveauCompteToolStripMenuItem1.Name = "nouveauCompteToolStripMenuItem1";
-            this.nouveauCompteToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.nouveauCompteToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.nouveauCompteToolStripMenuItem1.Text = "nouveau compte";
+            this.nouveauCompteToolStripMenuItem1.Click += new System.EventHandler(this.nouveauCompteToolStripMenuItem1_Click);
             // 
             // voirMesComptesToolStripMenuItem1
             // 
             this.voirMesComptesToolStripMenuItem1.Name = "voirMesComptesToolStripMenuItem1";
-            this.voirMesComptesToolStripMenuItem1.Size = new System.Drawing.Size(168, 22);
+            this.voirMesComptesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.voirMesComptesToolStripMenuItem1.Text = "voir mes comptes";
+            this.voirMesComptesToolStripMenuItem1.Click += new System.EventHandler(this.voirMesComptesToolStripMenuItem1_Click);
             // 
             // twintToolStripMenuItem
             // 
             this.twintToolStripMenuItem.Name = "twintToolStripMenuItem";
-            this.twintToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.twintToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.twintToolStripMenuItem.Text = "twint ";
             this.twintToolStripMenuItem.Click += new System.EventHandler(this.twintToolStripMenuItem_Click);
             // 
             // lotterieToolStripMenuItem
             // 
             this.lotterieToolStripMenuItem.Name = "lotterieToolStripMenuItem";
-            this.lotterieToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.lotterieToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lotterieToolStripMenuItem.Text = "lotterie";
             this.lotterieToolStripMenuItem.Click += new System.EventHandler(this.lotterieToolStripMenuItem_Click);
-            // 
-            // comptesToolStripMenuItem1
-            // 
-            this.comptesToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deconnexionToolStripMenuItem,
-            this.nouveauCompteToolStripMenuItem,
-            this.voirMesComptesToolStripMenuItem});
-            this.comptesToolStripMenuItem1.Name = "comptesToolStripMenuItem1";
-            this.comptesToolStripMenuItem1.Size = new System.Drawing.Size(65, 20);
-            this.comptesToolStripMenuItem1.Text = "comptes";
-            // 
-            // deconnexionToolStripMenuItem
-            // 
-            this.deconnexionToolStripMenuItem.Name = "deconnexionToolStripMenuItem";
-            this.deconnexionToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.deconnexionToolStripMenuItem.Text = "deconnexion";
-            // 
-            // nouveauCompteToolStripMenuItem
-            // 
-            this.nouveauCompteToolStripMenuItem.Name = "nouveauCompteToolStripMenuItem";
-            this.nouveauCompteToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.nouveauCompteToolStripMenuItem.Text = "nouveau compte";
-            // 
-            // voirMesComptesToolStripMenuItem
-            // 
-            this.voirMesComptesToolStripMenuItem.Name = "voirMesComptesToolStripMenuItem";
-            this.voirMesComptesToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.voirMesComptesToolStripMenuItem.Text = "voir mes comptes";
             // 
             // lblDemandeCompte
             // 
@@ -309,12 +279,8 @@
         private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem retirerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem comptesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comptesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem twintToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lotterieToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem deconnexionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nouveauCompteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem voirMesComptesToolStripMenuItem;
         private System.Windows.Forms.Label lblDemandeCompte;
         private System.Windows.Forms.Button btnOui;
         private System.Windows.Forms.Button btnNon;

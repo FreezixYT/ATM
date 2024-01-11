@@ -93,14 +93,31 @@ namespace Machine_Atm_Aimun_Nathan
 
         private void btnNon_Click(object sender, EventArgs e)
         {
-            SignIn signIn = new SignIn();
-            signIn.Show();
+            SignIn frmS=new SignIn();
+             frmS.Show();
         }
 
         private void btnCompte_Click(object sender, EventArgs e)
         {
             AfficheCompte frm= new AfficheCompte();
             frm.Show();
+        }
+
+        private void deconnexionToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+        //  lblUtilisateur.Clear();
+        }
+
+        private void nouveauCompteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            SignIn frm= new SignIn();
+            frm.Show();
+        }
+
+        private void voirMesComptesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            AfficheCompte frmA = new AfficheCompte();
+            frmA.Show();
         }
     }
 }
