@@ -28,7 +28,7 @@ namespace Machine_Atm_Aimun_Nathan
         private void btnReturner_Click(object sender, EventArgs e)
         {
             frmMain frm=new frmMain();
-            frm.ShowDialog();
+            frm.ShowDialog(); 
         }
     }
 }
