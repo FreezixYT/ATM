@@ -24,7 +24,19 @@ namespace Machine_Atm_Aimun_Nathan
 
         private void btnEnvoyerArgent_Click(object sender, EventArgs e)
         {
-           
+       
+            if (double.TryParse(tbxArgentAEnvoyer.Text, out double sommeEnvoyer))
+            {
+        
+                SignIn.balance -= sommeEnvoyer;
+
+             
+                MessageBox.Show($"Vous avez envoyé {sommeEnvoyer}$ avec succès.", "Confirmation", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("Veuillez entrer un montant valide.", "Erreur de saisie", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void envoyerTwint_Load(object sender, EventArgs e)

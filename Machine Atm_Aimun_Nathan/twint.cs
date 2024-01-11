@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Machine_Atm_Aimun_Nathan
 {
@@ -39,5 +40,12 @@ namespace Machine_Atm_Aimun_Nathan
         {
 
         }
+
+        private void btnRecevoir_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("VOTRE LOGGIN EST " + SignIn.utilisateur, "Confirmation", MessageBoxButtons.OK);
+
+        }
     }
 }
+

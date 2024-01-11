@@ -81,6 +81,7 @@
             this.btnRecevoir.TabIndex = 4;
             this.btnRecevoir.Text = "Recevoir";
             this.btnRecevoir.UseVisualStyleBackColor = false;
+            this.btnRecevoir.Click += new System.EventHandler(this.btnRecevoir_Click);
             // 
             // frmTwint
             // 

@@ -35,6 +35,8 @@
             this.tbx_nb_1 = new System.Windows.Forms.TextBox();
             this.tbx_nb_2 = new System.Windows.Forms.TextBox();
             this.tbx_nb_3 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             lblTwint = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -102,12 +104,31 @@
             this.tbx_nb_3.TabIndex = 7;
             this.tbx_nb_3.TextChanged += new System.EventHandler(this.tbx_nb_3_TextChanged);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(669, 45);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(693, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "BALANCE";
+            // 
             // frmLoterie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tbx_nb_3);
             this.Controls.Add(this.tbx_nb_2);
             this.Controls.Add(this.tbx_nb_1);
@@ -117,6 +138,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLoterie";
             this.Text = "Loterie";
+            this.Load += new System.EventHandler(this.frmLoterie_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -130,5 +152,7 @@
         private System.Windows.Forms.TextBox tbx_nb_1;
         private System.Windows.Forms.TextBox tbx_nb_2;
         private System.Windows.Forms.TextBox tbx_nb_3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
