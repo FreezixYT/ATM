@@ -42,12 +42,13 @@
             // 
             // btnReturner
             // 
+            this.btnReturner.BackColor = System.Drawing.Color.RosyBrown;
             this.btnReturner.Location = new System.Drawing.Point(437, 577);
             this.btnReturner.Name = "btnReturner";
             this.btnReturner.Size = new System.Drawing.Size(113, 40);
             this.btnReturner.TabIndex = 2;
             this.btnReturner.Text = "Retourner";
-            this.btnReturner.UseVisualStyleBackColor = true;
+            this.btnReturner.UseVisualStyleBackColor = false;
             this.btnReturner.Click += new System.EventHandler(this.btnReturner_Click);
             // 
             // pnlCompte
@@ -138,7 +139,7 @@
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(602, 629);
             this.Controls.Add(this.pictureBoxAccouont);
             this.Controls.Add(this.btnReturner);

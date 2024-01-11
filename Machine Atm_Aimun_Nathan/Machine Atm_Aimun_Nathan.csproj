@@ -54,11 +54,11 @@
     <Compile Include="AfficheCompte.Designer.cs">
       <DependentUpon>AfficheCompte.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="lotterie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="lotterie.Designer.cs">
+      <DependentUpon>lotterie.cs</DependentUpon>
     </Compile>
     <Compile Include="envoyerTwint.cs">
       <SubType>Form</SubType>
@@ -101,8 +101,8 @@
     <EmbeddedResource Include="AfficheCompte.resx">
       <DependentUpon>AfficheCompte.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="lotterie.resx">
+      <DependentUpon>lotterie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="envoyerTwint.resx">
       <DependentUpon>envoyerTwint.cs</DependentUpon>
