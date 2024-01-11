@@ -30,12 +30,14 @@
         {
             this.btnReturner = new System.Windows.Forms.Button();
             this.pnlCompte = new System.Windows.Forms.Panel();
+            this.lblMontant = new System.Windows.Forms.Label();
             this.lblCarteN = new System.Windows.Forms.Label();
             this.lblUtilisateur = new System.Windows.Forms.Label();
             this.lblCompte = new System.Windows.Forms.Label();
             this.lblCarteNbr = new System.Windows.Forms.Label();
             this.lblCNom = new System.Windows.Forms.Label();
             this.pictureBoxAccouont = new System.Windows.Forms.PictureBox();
+            this.lblBalance = new System.Windows.Forms.Label();
             this.pnlCompte.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAccouont)).BeginInit();
             this.SuspendLayout();
@@ -55,6 +57,8 @@
             // 
             this.pnlCompte.BackColor = System.Drawing.Color.Azure;
             this.pnlCompte.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlCompte.Controls.Add(this.lblBalance);
+            this.pnlCompte.Controls.Add(this.lblMontant);
             this.pnlCompte.Controls.Add(this.lblCarteN);
             this.pnlCompte.Controls.Add(this.lblUtilisateur);
             this.pnlCompte.Controls.Add(this.lblCompte);
@@ -65,6 +69,17 @@
             this.pnlCompte.Name = "pnlCompte";
             this.pnlCompte.Size = new System.Drawing.Size(452, 381);
             this.pnlCompte.TabIndex = 1;
+            // 
+            // lblMontant
+            // 
+            this.lblMontant.AutoSize = true;
+            this.lblMontant.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMontant.ForeColor = System.Drawing.Color.Black;
+            this.lblMontant.Location = new System.Drawing.Point(176, 166);
+            this.lblMontant.Name = "lblMontant";
+            this.lblMontant.Size = new System.Drawing.Size(17, 24);
+            this.lblMontant.TabIndex = 6;
+            this.lblMontant.Text = "-";
             // 
             // lblCarteN
             // 
@@ -87,7 +102,6 @@
             this.lblUtilisateur.Size = new System.Drawing.Size(17, 24);
             this.lblUtilisateur.TabIndex = 3;
             this.lblUtilisateur.Text = "-";
-            this.lblUtilisateur.Click += new System.EventHandler(this.lblUtilisateur_Click);
             // 
             // lblCompte
             // 
@@ -134,6 +148,17 @@
             this.pictureBoxAccouont.TabIndex = 0;
             this.pictureBoxAccouont.TabStop = false;
             // 
+            // lblBalance
+            // 
+            this.lblBalance.AutoSize = true;
+            this.lblBalance.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBalance.ForeColor = System.Drawing.Color.Black;
+            this.lblBalance.Location = new System.Drawing.Point(7, 176);
+            this.lblBalance.Name = "lblBalance";
+            this.lblBalance.Size = new System.Drawing.Size(84, 24);
+            this.lblBalance.TabIndex = 7;
+            this.lblBalance.Text = "Balance:";
+            // 
             // AfficheCompte
             // 
             this.AllowDrop = true;
@@ -146,6 +171,7 @@
             this.Controls.Add(this.pnlCompte);
             this.Name = "AfficheCompte";
             this.Text = "AfficheCompte";
+            this.Load += new System.EventHandler(this.AfficheCompte_Load);
             this.pnlCompte.ResumeLayout(false);
             this.pnlCompte.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAccouont)).EndInit();
@@ -163,5 +189,7 @@
         private System.Windows.Forms.Label lblCNom;
         private System.Windows.Forms.Label lblCarteN;
         private System.Windows.Forms.Label lblUtilisateur;
+        private System.Windows.Forms.Label lblMontant;
+        private System.Windows.Forms.Label lblBalance;
     }
 }
