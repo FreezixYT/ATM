@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*nom:yemane
+ * prenom:aimun
+ * nom:pache
+ * prenom:nathan
+ * classe:p1a
+ */
+
+using System;
 using System.Media;
 using System.Threading;
 using System.Windows.Forms;
@@ -97,11 +104,6 @@ namespace Machine_Atm_Aimun_Nathan
         {
             AfficheCompte frm= new AfficheCompte();
             frm.Show();
-        }
-
-        private void deconnexionToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-        //  lblUtilisateur.Clear();
         }
 
         private void nouveauCompteToolStripMenuItem1_Click(object sender, EventArgs e)

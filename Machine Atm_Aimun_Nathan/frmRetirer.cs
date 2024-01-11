@@ -1,4 +1,10 @@
-﻿using System;
+﻿
+/*nom:yemane
+ * prenom:aimun
+ * nom:pache
+ * prenom:nathan
+ * classe:p1a
+ */using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

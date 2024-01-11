@@ -39,7 +39,6 @@
             this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retirerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comptesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deconnexionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.nouveauCompteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.voirMesComptesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.twintToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -158,19 +157,11 @@
             // comptesToolStripMenuItem
             // 
             this.comptesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deconnexionToolStripMenuItem1,
             this.nouveauCompteToolStripMenuItem1,
             this.voirMesComptesToolStripMenuItem1});
             this.comptesToolStripMenuItem.Name = "comptesToolStripMenuItem";
             this.comptesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comptesToolStripMenuItem.Text = "comptes";
-            // 
-            // deconnexionToolStripMenuItem1
-            // 
-            this.deconnexionToolStripMenuItem1.Name = "deconnexionToolStripMenuItem1";
-            this.deconnexionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.deconnexionToolStripMenuItem1.Text = "deconnexion";
-            this.deconnexionToolStripMenuItem1.Click += new System.EventHandler(this.deconnexionToolStripMenuItem1_Click);
             // 
             // nouveauCompteToolStripMenuItem1
             // 
@@ -284,7 +275,6 @@
         private System.Windows.Forms.Label lblDemandeCompte;
         private System.Windows.Forms.Button btnOui;
         private System.Windows.Forms.Button btnNon;
-        private System.Windows.Forms.ToolStripMenuItem deconnexionToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem nouveauCompteToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem voirMesComptesToolStripMenuItem1;
     }
