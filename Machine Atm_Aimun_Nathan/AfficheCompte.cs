@@ -19,16 +19,18 @@ namespace Machine_Atm_Aimun_Nathan
 
 
         }
-
-        private void lblUtilisateur_Click(object sender, EventArgs e)
-        {
-            lblUtilisateur.Text =SignIn.utilisateur;
-        }
-
         private void btnReturner_Click(object sender, EventArgs e)
         {
             frmMain frm=new frmMain();
             frm.ShowDialog(); 
+        }
+
+
+        private void AfficheCompte_Load(object sender, EventArgs e)
+        {
+            lblUtilisateur.Text = SignIn.utilisateur;
+            lblCarteN.Text = SignIn.carteNbr.ToString();
+            lblMontant.Text = SignIn.balance.ToString();
         }
     }
 }

@@ -15,6 +15,8 @@ namespace Machine_Atm_Aimun_Nathan
     {
         static public List<double> listBalance = new List<double>();
         static public List <string> listUtilisateur=new List<string>();
+        static public List<int> listCarteNbr = new List<int>();
+        static public int carteNbr;
         static public double balance;
         static public int age;
         static public string utilisateur;
@@ -37,12 +39,19 @@ namespace Machine_Atm_Aimun_Nathan
                 DialogResult result = MessageBox.Show(message, title, button);
                 if (result == DialogResult.OK)
                 {
-                    frmMain frm=new frmMain();
-                    frm.Show();
+                    frmMain frmM = new frmMain();
+                    frmM.Show();
                 }
             }
+            balance=Convert.ToDouble(tbxBalance.Text);
+            utilisateur = Convert.ToString(tbxUtilisateur.Text);
+            carteNbr = Convert.ToInt32(tbxCartenbr.Text);
             listUtilisateur.Add(SignIn.utilisateur);
             listBalance.Add(SignIn.balance);
+            listCarteNbr.Add(SignIn.carteNbr);
+
+            AfficheCompte frm = new AfficheCompte();
+            frm.Show();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
