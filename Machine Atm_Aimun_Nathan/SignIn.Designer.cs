@@ -50,6 +50,7 @@
             this.lblLength = new System.Windows.Forms.Label();
             this.lblLengthNbr = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblCreeCompte = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,12 +72,13 @@
             // 
             // btnCreer
             // 
+            this.btnCreer.BackColor = System.Drawing.Color.IndianRed;
             this.btnCreer.Location = new System.Drawing.Point(587, 382);
             this.btnCreer.Name = "btnCreer";
             this.btnCreer.Size = new System.Drawing.Size(122, 40);
             this.btnCreer.TabIndex = 2;
             this.btnCreer.Text = "Creer";
-            this.btnCreer.UseVisualStyleBackColor = true;
+            this.btnCreer.UseVisualStyleBackColor = false;
             this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
             // tbxMdp
@@ -199,12 +201,13 @@
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.IndianRed;
             this.btnClear.Location = new System.Drawing.Point(424, 382);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(122, 40);
             this.btnClear.TabIndex = 19;
             this.btnClear.Text = "Abondonner";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // lblLength
@@ -233,11 +236,23 @@
             this.dateTimePicker1.TabIndex = 22;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
+            // lblCreeCompte
+            // 
+            this.lblCreeCompte.AutoSize = true;
+            this.lblCreeCompte.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreeCompte.Location = new System.Drawing.Point(281, 9);
+            this.lblCreeCompte.Name = "lblCreeCompte";
+            this.lblCreeCompte.Size = new System.Drawing.Size(178, 25);
+            this.lblCreeCompte.TabIndex = 23;
+            this.lblCreeCompte.Text = "Créé un compte";
+            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCreeCompte);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblLengthNbr);
             this.Controls.Add(this.lblLength);
@@ -291,5 +306,6 @@
         private System.Windows.Forms.Label lblLength;
         private System.Windows.Forms.Label lblLengthNbr;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lblCreeCompte;
     }
 }
