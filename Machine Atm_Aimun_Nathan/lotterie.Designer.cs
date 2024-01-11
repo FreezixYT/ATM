@@ -82,7 +82,6 @@
             this.tbx_nb_1.Name = "tbx_nb_1";
             this.tbx_nb_1.Size = new System.Drawing.Size(37, 43);
             this.tbx_nb_1.TabIndex = 5;
-            this.tbx_nb_1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tbx_nb_2
             // 
@@ -92,7 +91,6 @@
             this.tbx_nb_2.Name = "tbx_nb_2";
             this.tbx_nb_2.Size = new System.Drawing.Size(37, 43);
             this.tbx_nb_2.TabIndex = 6;
-            this.tbx_nb_2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // tbx_nb_3
             // 
@@ -102,7 +100,6 @@
             this.tbx_nb_3.Name = "tbx_nb_3";
             this.tbx_nb_3.Size = new System.Drawing.Size(37, 43);
             this.tbx_nb_3.TabIndex = 7;
-            this.tbx_nb_3.TextChanged += new System.EventHandler(this.tbx_nb_3_TextChanged);
             // 
             // textBox1
             // 
@@ -110,7 +107,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 8;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 

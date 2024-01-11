@@ -59,10 +59,5 @@ namespace Machine_Atm_Aimun_Nathan
             frmMain frmMain = new frmMain();
             frmMain.Show();
         }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-        
-        }
     }
 }
