@@ -143,3 +143,4 @@ C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_A
 C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.csproj.CoreCompileInputs.cache
 C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.exe
 C:\Users\aimun\Source\Repos\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine Atm_Aimun_Nathan.pdb
+C:\Users\AIMUN.YMN\Desktop\projetGit ATM\ATM\ATM\Machine Atm_Aimun_Nathan\obj\Debug\Machine_Atm_Aimun_Nathan.envoyerTwint.resources

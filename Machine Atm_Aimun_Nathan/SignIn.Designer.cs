@@ -31,7 +31,6 @@
             this.tbxUtilisateur = new System.Windows.Forms.TextBox();
             this.lblUtilisateur = new System.Windows.Forms.Label();
             this.btnCreer = new System.Windows.Forms.Button();
-            this.tbxMdp = new System.Windows.Forms.TextBox();
             this.tbxAge = new System.Windows.Forms.TextBox();
             this.lblAge = new System.Windows.Forms.Label();
             this.lblCarteNbr = new System.Windows.Forms.Label();
@@ -43,11 +42,9 @@
             this.tbxPrnm = new System.Windows.Forms.TextBox();
             this.tbxCartenbr = new System.Windows.Forms.TextBox();
             this.lblprnm = new System.Windows.Forms.Label();
-            this.lblMdp = new System.Windows.Forms.Label();
             this.lblExp = new System.Windows.Forms.Label();
             this.lblBalance = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
-            this.lblLength = new System.Windows.Forms.Label();
             this.lblLengthNbr = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.lblCreeCompte = new System.Windows.Forms.Label();
@@ -81,13 +78,6 @@
             this.btnCreer.UseVisualStyleBackColor = false;
             this.btnCreer.Click += new System.EventHandler(this.btnCreer_Click);
             // 
-            // tbxMdp
-            // 
-            this.tbxMdp.Location = new System.Drawing.Point(217, 245);
-            this.tbxMdp.Name = "tbxMdp";
-            this.tbxMdp.Size = new System.Drawing.Size(314, 20);
-            this.tbxMdp.TabIndex = 3;
-            // 
             // tbxAge
             // 
             this.tbxAge.Location = new System.Drawing.Point(217, 75);
@@ -107,7 +97,7 @@
             // lblCarteNbr
             // 
             this.lblCarteNbr.AutoSize = true;
-            this.lblCarteNbr.Location = new System.Drawing.Point(99, 290);
+            this.lblCarteNbr.Location = new System.Drawing.Point(99, 255);
             this.lblCarteNbr.Name = "lblCarteNbr";
             this.lblCarteNbr.Size = new System.Drawing.Size(70, 13);
             this.lblCarteNbr.TabIndex = 7;
@@ -144,7 +134,7 @@
             // 
             // tbxBalance
             // 
-            this.tbxBalance.Location = new System.Drawing.Point(217, 356);
+            this.tbxBalance.Location = new System.Drawing.Point(217, 328);
             this.tbxBalance.Name = "tbxBalance";
             this.tbxBalance.Size = new System.Drawing.Size(314, 20);
             this.tbxBalance.TabIndex = 12;
@@ -158,7 +148,7 @@
             // 
             // tbxCartenbr
             // 
-            this.tbxCartenbr.Location = new System.Drawing.Point(217, 283);
+            this.tbxCartenbr.Location = new System.Drawing.Point(217, 252);
             this.tbxCartenbr.Name = "tbxCartenbr";
             this.tbxCartenbr.Size = new System.Drawing.Size(314, 20);
             this.tbxCartenbr.TabIndex = 14;
@@ -172,19 +162,10 @@
             this.lblprnm.TabIndex = 15;
             this.lblprnm.Text = "Prénom";
             // 
-            // lblMdp
-            // 
-            this.lblMdp.AutoSize = true;
-            this.lblMdp.Location = new System.Drawing.Point(99, 252);
-            this.lblMdp.Name = "lblMdp";
-            this.lblMdp.Size = new System.Drawing.Size(72, 13);
-            this.lblMdp.TabIndex = 16;
-            this.lblMdp.Text = "Mot de Passe";
-            // 
             // lblExp
             // 
             this.lblExp.AutoSize = true;
-            this.lblExp.Location = new System.Drawing.Point(99, 321);
+            this.lblExp.Location = new System.Drawing.Point(99, 294);
             this.lblExp.Name = "lblExp";
             this.lblExp.Size = new System.Drawing.Size(76, 13);
             this.lblExp.TabIndex = 17;
@@ -193,7 +174,7 @@
             // lblBalance
             // 
             this.lblBalance.AutoSize = true;
-            this.lblBalance.Location = new System.Drawing.Point(99, 359);
+            this.lblBalance.Location = new System.Drawing.Point(99, 331);
             this.lblBalance.Name = "lblBalance";
             this.lblBalance.Size = new System.Drawing.Size(48, 13);
             this.lblBalance.TabIndex = 18;
@@ -210,19 +191,10 @@
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // lblLength
-            // 
-            this.lblLength.AutoSize = true;
-            this.lblLength.Location = new System.Drawing.Point(326, 267);
-            this.lblLength.Name = "lblLength";
-            this.lblLength.Size = new System.Drawing.Size(69, 13);
-            this.lblLength.TabIndex = 20;
-            this.lblLength.Text = "min-8 max-30";
-            // 
             // lblLengthNbr
             // 
             this.lblLengthNbr.AutoSize = true;
-            this.lblLengthNbr.Location = new System.Drawing.Point(336, 306);
+            this.lblLengthNbr.Location = new System.Drawing.Point(342, 275);
             this.lblLengthNbr.Name = "lblLengthNbr";
             this.lblLengthNbr.Size = new System.Drawing.Size(50, 13);
             this.lblLengthNbr.TabIndex = 21;
@@ -230,7 +202,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(217, 322);
+            this.dateTimePicker1.Location = new System.Drawing.Point(217, 288);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(314, 20);
             this.dateTimePicker1.TabIndex = 22;
@@ -255,11 +227,9 @@
             this.Controls.Add(this.lblCreeCompte);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblLengthNbr);
-            this.Controls.Add(this.lblLength);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblBalance);
             this.Controls.Add(this.lblExp);
-            this.Controls.Add(this.lblMdp);
             this.Controls.Add(this.lblprnm);
             this.Controls.Add(this.tbxCartenbr);
             this.Controls.Add(this.tbxPrnm);
@@ -270,7 +240,6 @@
             this.Controls.Add(this.lblCarteNbr);
             this.Controls.Add(this.lblAge);
             this.Controls.Add(this.tbxAge);
-            this.Controls.Add(this.tbxMdp);
             this.Controls.Add(this.btnCreer);
             this.Controls.Add(this.lblUtilisateur);
             this.Controls.Add(this.tbxUtilisateur);
@@ -287,7 +256,6 @@
         private System.Windows.Forms.TextBox tbxUtilisateur;
         private System.Windows.Forms.Label lblUtilisateur;
         private System.Windows.Forms.Button btnCreer;
-        private System.Windows.Forms.TextBox tbxMdp;
         private System.Windows.Forms.TextBox tbxAge;
         private System.Windows.Forms.Label lblAge;
         private System.Windows.Forms.Label lblCarteNbr;
@@ -295,7 +263,6 @@
         private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.Label lblBalance;
         private System.Windows.Forms.Label lblExp;
-        private System.Windows.Forms.Label lblMdp;
         private System.Windows.Forms.Label lblprnm;
         private System.Windows.Forms.TextBox tbxCartenbr;
         private System.Windows.Forms.TextBox tbxPrnm;
@@ -303,7 +270,6 @@
         private System.Windows.Forms.TextBox tbxNom;
         private System.Windows.Forms.Label lblNom;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Label lblLength;
         private System.Windows.Forms.Label lblLengthNbr;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label lblCreeCompte;
