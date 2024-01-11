@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Machine_Atm_Aimun_Nathan
 {
@@ -56,16 +57,19 @@ namespace Machine_Atm_Aimun_Nathan
         private void tbx_nb_3_TextChanged(object sender, EventArgs e)
         {
             int randomNumber = random.Next(1, 10);
+            tbx_nb_3.Text = randomNumber.ToString();
 
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             int randomNumber = random.Next(1, 10);
+            tbx_nb_3.Text = randomNumber.ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             int randomNumber = random.Next(1, 10);
+            tbx_nb_3.Text = randomNumber.ToString();
         }
 
     }
